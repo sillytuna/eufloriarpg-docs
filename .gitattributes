@@ -1,0 +1,137 @@
+# Auto detect text files and perform LF normalization
+# http://davidlaing.com/2012/09/19/customise-your-gitattributes-to-become-a-git-ninja/
+
+* text eol=lf
+
+#
+# The above will handle all files NOT found below
+#
+
+# Documents
+
+*.doc diff=astextplain
+*.DOC diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot diff=astextplain
+*.DOT diff=astextplain
+*.pdf diff=astextplain
+*.PDF diff=astextplain
+*.rtf diff=astextplain
+*.RTF diff=astextplain
+*.md text
+*.adoc text
+*.textile text
+*.mustache text
+*.sql text
+LICENSE text
+AUTHORS text
+
+# Graphics
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.eot binary
+*.woff binary
+*.pyc binary
+*.pdf binary
+*.tif binary
+*.eps binary
+
+# Source
+
+*.lua text
+*.cfg text
+*.js text
+*.cs text
+*.php text
+*.css text
+*.sass text
+*.scss text
+*.less text
+*.styl text
+*.js text
+*.coffee text
+*.json text
+*.htm text
+*.html text
+*.xml text
+*.ini text
+*.inc text
+*.pl text
+*.rb text
+*.scm text
+*.sql text
+*.sh text
+*.bat text
+*.svg text
+*.tab text
+*.csv text
+*.txt text
+*.tsv text
+
+# Templates
+
+*.ejs text
+*.hbt text
+*.jade text
+*.haml text
+*.hbs text
+*.dot text
+*.tmpl text
+*.phtml text
+
+# Git
+
+.gitattributes text
+.gitignore text
+.gitconfig text
+
+# Misc
+
+*.yaml text
+*.yml text
+
+# Build
+
+*.npmignore text
+*.bowerrc text
+
+# Basic .gitattributes for a python repo.
+
+# Source files
+# ============
+*.pxd		text
+*.py 		text
+*.py3 		text
+*.pyw 		text
+*.pyx  		text
+
+# Binary files
+# ============
+*.db		binary
+*.p 		binary
+*.pkl 		binary
+*.pyc 		binary
+*.pyd		binary
+*.pyo 		binary
+
+# Note: .db, .p, and .pkl files are associated
+# with the python modules ``pickle``, ``dbm.*``,
+# ``shelve``, ``marshal``, ``anydbm``, & ``bsddb``
+# (among others).
+
+
