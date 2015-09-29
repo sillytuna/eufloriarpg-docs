@@ -1,7 +1,9 @@
-# eufloria-rpg-docs
+## Eufloria RPG modding documentation.
 
-Eufloria RPG modding documentation
+The `master` branch is the current live version of the documentation. `Releases` will be tagged once the project is ready.
 
+1. Clone or download a zip of this repository.
+2. The `docs/build` folder contains the built version of the documentation. 
 
 
 [![Creative Commons Licence](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
