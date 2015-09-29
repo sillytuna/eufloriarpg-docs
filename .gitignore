@@ -1,3 +1,28 @@
+# Project specific (some items may be repeated later)
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+build/
+.cache
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+.idea/
+
+# Common
+
 .bak
 
 .DS_Store
