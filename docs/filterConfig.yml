@@ -1,0 +1,7 @@
+apiRules:
+- include:
+      uidRegex: ^Clay\.Game\.Mod
+      type: Namespace
+- exclude:
+      uidRegex: .*
+      type: Namespace
