@@ -1,0 +1,3 @@
+sphinx==3.2.1
+sphinx-autoapi==1.5.1
+sphinxcontrib-dotnetdomain==3.2.1
