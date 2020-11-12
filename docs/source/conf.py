@@ -44,8 +44,8 @@ release = '0.0.6a'
 # WHEN YOU DON'T WANT TO REGENERATE THE API DOCUMENTATION UNCOMMENT THE FOLLOWING
 extensions = [
     'sphinxcontrib.dotnetdomain',
-    "sphinx_rtd_theme",
-    'sphinx.ext.autodoc'
+    'sphinx.ext.autodoc',
+    "sphinx_rtd_theme"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
