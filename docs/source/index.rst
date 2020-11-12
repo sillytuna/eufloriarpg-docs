@@ -34,7 +34,8 @@ The main documentation for the site is organized into the following sections:
     :caption: Getting Started
     :name: sec-learn
 
-    learn/step_by_step/quick_start
+    learn/getting_started/quick_start
+    learn/overview/scripting
 
 .. toctree::
    :maxdepth: 2
