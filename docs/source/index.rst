@@ -9,7 +9,7 @@ Eufloria RPG Mod documentation!
 Welcome to the official documentation for Eufloria RPG Modding!
 
 If you are reading the .pdf version of this documentation, you may find the online version easier to navigate. 
-It is accessible on our `documentation site <SOME URL>`_.
+It is accessible on our `documentation site <https://eufloriarpg-docs.readthedocs.io/en/latest/>`_.
 
 We recommend you read the :ref:`introduction page <doc_about_intro>` to get an overview of what this documentation
 has to offer.
