@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.PlantRootHint
+  commentId: T:Clay.Game.Mod.Entities.PlantRootHint
+  id: PlantRootHint
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.PlantRootHint.Angle
+  - Clay.Game.Mod.Entities.PlantRootHint.Colony
+  - Clay.Game.Mod.Entities.PlantRootHint.None
+  - Clay.Game.Mod.Entities.PlantRootHint.Snap
+  langs:
+  - csharp
+  - vb
+  name: PlantRootHint
+  nameWithType: PlantRootHint
+  fullName: Clay.Game.Mod.Entities.PlantRootHint
+  type: Enum
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Flora.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: PlantRootHint
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Flora.cs
+    startLine: 14
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum PlantRootHint
+    content.vb: >-
+      <Flags>
+
+      Public Enum PlantRootHint
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Clay.Game.Mod.Entities.PlantRootHint.None
+  commentId: F:Clay.Game.Mod.Entities.PlantRootHint.None
+  id: None
+  parent: Clay.Game.Mod.Entities.PlantRootHint
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: PlantRootHint.None
+  fullName: Clay.Game.Mod.Entities.PlantRootHint.None
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Flora.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: None
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Flora.cs
+    startLine: 17
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: None = 0
+    return:
+      type: Clay.Game.Mod.Entities.PlantRootHint
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.PlantRootHint.Colony
+  commentId: F:Clay.Game.Mod.Entities.PlantRootHint.Colony
+  id: Colony
+  parent: Clay.Game.Mod.Entities.PlantRootHint
+  langs:
+  - csharp
+  - vb
+  name: Colony
+  nameWithType: PlantRootHint.Colony
+  fullName: Clay.Game.Mod.Entities.PlantRootHint.Colony
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Flora.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Colony
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Flora.cs
+    startLine: 18
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Colony = 1
+    return:
+      type: Clay.Game.Mod.Entities.PlantRootHint
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.PlantRootHint.Snap
+  commentId: F:Clay.Game.Mod.Entities.PlantRootHint.Snap
+  id: Snap
+  parent: Clay.Game.Mod.Entities.PlantRootHint
+  langs:
+  - csharp
+  - vb
+  name: Snap
+  nameWithType: PlantRootHint.Snap
+  fullName: Clay.Game.Mod.Entities.PlantRootHint.Snap
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Flora.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Snap
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Flora.cs
+    startLine: 19
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Snap = 2
+    return:
+      type: Clay.Game.Mod.Entities.PlantRootHint
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.PlantRootHint.Angle
+  commentId: F:Clay.Game.Mod.Entities.PlantRootHint.Angle
+  id: Angle
+  parent: Clay.Game.Mod.Entities.PlantRootHint
+  langs:
+  - csharp
+  - vb
+  name: Angle
+  nameWithType: PlantRootHint.Angle
+  fullName: Clay.Game.Mod.Entities.PlantRootHint.Angle
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Flora.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Angle
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Flora.cs
+    startLine: 20
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Angle = 4
+    return:
+      type: Clay.Game.Mod.Entities.PlantRootHint
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: Clay.Game.Mod.Entities.PlantRootHint
+  commentId: T:Clay.Game.Mod.Entities.PlantRootHint
+  parent: Clay.Game.Mod.Entities
+  name: PlantRootHint
+  nameWithType: PlantRootHint
+  fullName: Clay.Game.Mod.Entities.PlantRootHint

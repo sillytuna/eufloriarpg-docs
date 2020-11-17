@@ -35,18 +35,18 @@ release = '0.0.6a'
 # THE COMMENT ABOVE EACH ONE TO SEE WHAT YOU DO / DO NOT NEED ENABLED BASED ON YOUR REQUIREENTS
 
 # WHEN YOU WANT TO GENERATE THE API DOCUMENTATION, UNCOMMENT THE FOLLOWING
-#extensions = [
-#    'sphinxcontrib.dotnetdomain',
-#    'sphinx.ext.autodoc', 
-#    'autoapi.extension',
-#    "sphinx_rtd_theme",
-#]
-# WHEN YOU DON'T WANT TO REGENERATE THE API DOCUMENTATION UNCOMMENT THE FOLLOWING
 extensions = [
     'sphinxcontrib.dotnetdomain',
-    'sphinx.ext.autodoc',
-    "sphinx_rtd_theme"
+    'sphinx.ext.autodoc', 
+    'autoapi.extension',
+    "sphinx_rtd_theme",
 ]
+# WHEN YOU DON'T WANT TO REGENERATE THE API DOCUMENTATION UNCOMMENT THE FOLLOWING
+#extensions = [
+#    'sphinxcontrib.dotnetdomain',
+#    'sphinx.ext.autodoc',
+#    "sphinx_rtd_theme"
+#]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -80,7 +80,6 @@ autodoc_typehints = 'description'
 # Keep our generated API files, when we have finished generating the api files, we turn off generation and commit the generated
 # files to our repository, this allows us to build our documentation seperately from the api documentation through readthedocs
 autoapi_keep_files = True
-autoapi_generate_api_docs = False
 
 # The path we look for the dockfx.json file in
 autoapi_dirs = [

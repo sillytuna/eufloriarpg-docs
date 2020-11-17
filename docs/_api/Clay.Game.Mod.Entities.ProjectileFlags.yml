@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.ProjectileFlags
+  commentId: T:Clay.Game.Mod.Entities.ProjectileFlags
+  id: ProjectileFlags
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.ProjectileFlags.Homing
+  - Clay.Game.Mod.Entities.ProjectileFlags.None
+  langs:
+  - csharp
+  - vb
+  name: ProjectileFlags
+  nameWithType: ProjectileFlags
+  fullName: Clay.Game.Mod.Entities.ProjectileFlags
+  type: Enum
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Projectile.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: ProjectileFlags
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Projectile.cs
+    startLine: 7
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ProjectileFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum ProjectileFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Clay.Game.Mod.Entities.ProjectileFlags.None
+  commentId: F:Clay.Game.Mod.Entities.ProjectileFlags.None
+  id: None
+  parent: Clay.Game.Mod.Entities.ProjectileFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ProjectileFlags.None
+  fullName: Clay.Game.Mod.Entities.ProjectileFlags.None
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Projectile.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: None
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Projectile.cs
+    startLine: 9
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: >-
+      [UsedImplicitly]
+
+      None = 0
+    return:
+      type: Clay.Game.Mod.Entities.ProjectileFlags
+    content.vb: >-
+      <UsedImplicitly>
+
+      None = 0
+  attributes:
+  - type: JetBrains.Annotations.UsedImplicitlyAttribute
+    ctor: JetBrains.Annotations.UsedImplicitlyAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.ProjectileFlags.Homing
+  commentId: F:Clay.Game.Mod.Entities.ProjectileFlags.Homing
+  id: Homing
+  parent: Clay.Game.Mod.Entities.ProjectileFlags
+  langs:
+  - csharp
+  - vb
+  name: Homing
+  nameWithType: ProjectileFlags.Homing
+  fullName: Clay.Game.Mod.Entities.ProjectileFlags.Homing
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Projectile.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Homing
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Projectile.cs
+    startLine: 12
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: >-
+      [UsedImplicitly]
+
+      Homing = 1
+    return:
+      type: Clay.Game.Mod.Entities.ProjectileFlags
+    content.vb: >-
+      <UsedImplicitly>
+
+      Homing = 1
+  attributes:
+  - type: JetBrains.Annotations.UsedImplicitlyAttribute
+    ctor: JetBrains.Annotations.UsedImplicitlyAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: Clay.Game.Mod.Entities.ProjectileFlags
+  commentId: T:Clay.Game.Mod.Entities.ProjectileFlags
+  parent: Clay.Game.Mod.Entities
+  name: ProjectileFlags
+  nameWithType: ProjectileFlags
+  fullName: Clay.Game.Mod.Entities.ProjectileFlags

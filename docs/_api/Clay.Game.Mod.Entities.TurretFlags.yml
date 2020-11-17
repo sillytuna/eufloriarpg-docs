@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.TurretFlags
+  commentId: T:Clay.Game.Mod.Entities.TurretFlags
+  id: TurretFlags
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.TurretFlags.None
+  - Clay.Game.Mod.Entities.TurretFlags.PingPong
+  - Clay.Game.Mod.Entities.TurretFlags.Tracking
+  langs:
+  - csharp
+  - vb
+  name: TurretFlags
+  nameWithType: TurretFlags
+  fullName: Clay.Game.Mod.Entities.TurretFlags
+  type: Enum
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: TurretFlags
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 9
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum TurretFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum TurretFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Clay.Game.Mod.Entities.TurretFlags.None
+  commentId: F:Clay.Game.Mod.Entities.TurretFlags.None
+  id: None
+  parent: Clay.Game.Mod.Entities.TurretFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: TurretFlags.None
+  fullName: Clay.Game.Mod.Entities.TurretFlags.None
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: None
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 11
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: None = 0
+    return:
+      type: Clay.Game.Mod.Entities.TurretFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.TurretFlags.Tracking
+  commentId: F:Clay.Game.Mod.Entities.TurretFlags.Tracking
+  id: Tracking
+  parent: Clay.Game.Mod.Entities.TurretFlags
+  langs:
+  - csharp
+  - vb
+  name: Tracking
+  nameWithType: TurretFlags.Tracking
+  fullName: Clay.Game.Mod.Entities.TurretFlags.Tracking
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Tracking
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 13
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Tracking = 2
+    return:
+      type: Clay.Game.Mod.Entities.TurretFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.TurretFlags.PingPong
+  commentId: F:Clay.Game.Mod.Entities.TurretFlags.PingPong
+  id: PingPong
+  parent: Clay.Game.Mod.Entities.TurretFlags
+  langs:
+  - csharp
+  - vb
+  name: PingPong
+  nameWithType: TurretFlags.PingPong
+  fullName: Clay.Game.Mod.Entities.TurretFlags.PingPong
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: PingPong
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 14
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: PingPong = 4
+    return:
+      type: Clay.Game.Mod.Entities.TurretFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: Clay.Game.Mod.Entities.TurretFlags
+  commentId: T:Clay.Game.Mod.Entities.TurretFlags
+  parent: Clay.Game.Mod.Entities
+  name: TurretFlags
+  nameWithType: TurretFlags
+  fullName: Clay.Game.Mod.Entities.TurretFlags

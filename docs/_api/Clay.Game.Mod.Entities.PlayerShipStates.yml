@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.PlayerShipStates
+  commentId: T:Clay.Game.Mod.Entities.PlayerShipStates
+  id: PlayerShipStates
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.PlayerShipStates.InVortex
+  - Clay.Game.Mod.Entities.PlayerShipStates.Normal
+  - Clay.Game.Mod.Entities.PlayerShipStates.OutVortex
+  - Clay.Game.Mod.Entities.PlayerShipStates.Uninitialised
+  langs:
+  - csharp
+  - vb
+  name: PlayerShipStates
+  nameWithType: PlayerShipStates
+  fullName: Clay.Game.Mod.Entities.PlayerShipStates
+  type: Enum
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: PlayerShipStates
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+    startLine: 26
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public enum PlayerShipStates
+    content.vb: Public Enum PlayerShipStates
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Clay.Game.Mod.Entities.PlayerShipStates.Uninitialised
+  commentId: F:Clay.Game.Mod.Entities.PlayerShipStates.Uninitialised
+  id: Uninitialised
+  parent: Clay.Game.Mod.Entities.PlayerShipStates
+  langs:
+  - csharp
+  - vb
+  name: Uninitialised
+  nameWithType: PlayerShipStates.Uninitialised
+  fullName: Clay.Game.Mod.Entities.PlayerShipStates.Uninitialised
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Uninitialised
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+    startLine: 27
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Uninitialised = 0
+    return:
+      type: Clay.Game.Mod.Entities.PlayerShipStates
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.PlayerShipStates.Normal
+  commentId: F:Clay.Game.Mod.Entities.PlayerShipStates.Normal
+  id: Normal
+  parent: Clay.Game.Mod.Entities.PlayerShipStates
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: PlayerShipStates.Normal
+  fullName: Clay.Game.Mod.Entities.PlayerShipStates.Normal
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Normal
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+    startLine: 28
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Normal = 1
+    return:
+      type: Clay.Game.Mod.Entities.PlayerShipStates
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.PlayerShipStates.InVortex
+  commentId: F:Clay.Game.Mod.Entities.PlayerShipStates.InVortex
+  id: InVortex
+  parent: Clay.Game.Mod.Entities.PlayerShipStates
+  langs:
+  - csharp
+  - vb
+  name: InVortex
+  nameWithType: PlayerShipStates.InVortex
+  fullName: Clay.Game.Mod.Entities.PlayerShipStates.InVortex
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: InVortex
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+    startLine: 29
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: InVortex = 2
+    return:
+      type: Clay.Game.Mod.Entities.PlayerShipStates
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.PlayerShipStates.OutVortex
+  commentId: F:Clay.Game.Mod.Entities.PlayerShipStates.OutVortex
+  id: OutVortex
+  parent: Clay.Game.Mod.Entities.PlayerShipStates
+  langs:
+  - csharp
+  - vb
+  name: OutVortex
+  nameWithType: PlayerShipStates.OutVortex
+  fullName: Clay.Game.Mod.Entities.PlayerShipStates.OutVortex
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: OutVortex
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+    startLine: 30
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: OutVortex = 3
+    return:
+      type: Clay.Game.Mod.Entities.PlayerShipStates
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: Clay.Game.Mod.Entities.PlayerShipStates
+  commentId: T:Clay.Game.Mod.Entities.PlayerShipStates
+  parent: Clay.Game.Mod.Entities
+  name: PlayerShipStates
+  nameWithType: PlayerShipStates
+  fullName: Clay.Game.Mod.Entities.PlayerShipStates

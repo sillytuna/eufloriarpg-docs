@@ -1,0 +1,428 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.TurretSpawnDef
+  commentId: T:Clay.Game.Mod.Entities.TurretSpawnDef
+  id: TurretSpawnDef
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.TurretSpawnDef.mAngle
+  - Clay.Game.Mod.Entities.TurretSpawnDef.mAttributes
+  - Clay.Game.Mod.Entities.TurretSpawnDef.mColony
+  - Clay.Game.Mod.Entities.TurretSpawnDef.mName
+  - Clay.Game.Mod.Entities.TurretSpawnDef.mOther
+  - Clay.Game.Mod.Entities.TurretSpawnDef.mPosition
+  - Clay.Game.Mod.Entities.TurretSpawnDef.mSnapToScenery
+  - Clay.Game.Mod.Entities.TurretSpawnDef.mTeam
+  - Clay.Game.Mod.Entities.TurretSpawnDef.mType
+  - Clay.Game.Mod.Entities.TurretSpawnDef.Register
+  langs:
+  - csharp
+  - vb
+  name: TurretSpawnDef
+  nameWithType: TurretSpawnDef
+  fullName: Clay.Game.Mod.Entities.TurretSpawnDef
+  type: Class
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: TurretSpawnDef
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 467
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: 'public class TurretSpawnDef : EditorCommand'
+    content.vb: >-
+      Public Class TurretSpawnDef
+          Inherits EditorCommand
+  inheritance:
+  - System.Object
+  - EditorCommand
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Clay.Game.Mod.Entities.TurretSpawnDef.mType
+  commentId: F:Clay.Game.Mod.Entities.TurretSpawnDef.mType
+  id: mType
+  parent: Clay.Game.Mod.Entities.TurretSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mType
+  nameWithType: TurretSpawnDef.mType
+  fullName: Clay.Game.Mod.Entities.TurretSpawnDef.mType
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mType
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 470
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mType
+    return:
+      type: System.String
+    content.vb: Public mType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.TurretSpawnDef.mColony
+  commentId: F:Clay.Game.Mod.Entities.TurretSpawnDef.mColony
+  id: mColony
+  parent: Clay.Game.Mod.Entities.TurretSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mColony
+  nameWithType: TurretSpawnDef.mColony
+  fullName: Clay.Game.Mod.Entities.TurretSpawnDef.mColony
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mColony
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 473
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mColony
+    return:
+      type: System.String
+    content.vb: Public mColony As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.TurretSpawnDef.mPosition
+  commentId: F:Clay.Game.Mod.Entities.TurretSpawnDef.mPosition
+  id: mPosition
+  parent: Clay.Game.Mod.Entities.TurretSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mPosition
+  nameWithType: TurretSpawnDef.mPosition
+  fullName: Clay.Game.Mod.Entities.TurretSpawnDef.mPosition
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mPosition
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 476
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public Vector2 mPosition
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public mPosition As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.TurretSpawnDef.mAngle
+  commentId: F:Clay.Game.Mod.Entities.TurretSpawnDef.mAngle
+  id: mAngle
+  parent: Clay.Game.Mod.Entities.TurretSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mAngle
+  nameWithType: TurretSpawnDef.mAngle
+  fullName: Clay.Game.Mod.Entities.TurretSpawnDef.mAngle
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mAngle
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 479
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public float mAngle
+    return:
+      type: System.Single
+    content.vb: Public mAngle As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.TurretSpawnDef.mSnapToScenery
+  commentId: F:Clay.Game.Mod.Entities.TurretSpawnDef.mSnapToScenery
+  id: mSnapToScenery
+  parent: Clay.Game.Mod.Entities.TurretSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mSnapToScenery
+  nameWithType: TurretSpawnDef.mSnapToScenery
+  fullName: Clay.Game.Mod.Entities.TurretSpawnDef.mSnapToScenery
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mSnapToScenery
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 482
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public bool mSnapToScenery
+    return:
+      type: System.Boolean
+    content.vb: Public mSnapToScenery As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.TurretSpawnDef.mTeam
+  commentId: F:Clay.Game.Mod.Entities.TurretSpawnDef.mTeam
+  id: mTeam
+  parent: Clay.Game.Mod.Entities.TurretSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mTeam
+  nameWithType: TurretSpawnDef.mTeam
+  fullName: Clay.Game.Mod.Entities.TurretSpawnDef.mTeam
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mTeam
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 485
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mTeam
+    return:
+      type: System.String
+    content.vb: Public mTeam As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.TurretSpawnDef.mAttributes
+  commentId: F:Clay.Game.Mod.Entities.TurretSpawnDef.mAttributes
+  id: mAttributes
+  parent: Clay.Game.Mod.Entities.TurretSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mAttributes
+  nameWithType: TurretSpawnDef.mAttributes
+  fullName: Clay.Game.Mod.Entities.TurretSpawnDef.mAttributes
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mAttributes
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 488
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public Attributes mAttributes
+    return:
+      type: Attributes
+    content.vb: Public mAttributes As Attributes
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.TurretSpawnDef.mName
+  commentId: F:Clay.Game.Mod.Entities.TurretSpawnDef.mName
+  id: mName
+  parent: Clay.Game.Mod.Entities.TurretSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mName
+  nameWithType: TurretSpawnDef.mName
+  fullName: Clay.Game.Mod.Entities.TurretSpawnDef.mName
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mName
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 491
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mName
+    return:
+      type: System.String
+    content.vb: Public mName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.TurretSpawnDef.mOther
+  commentId: F:Clay.Game.Mod.Entities.TurretSpawnDef.mOther
+  id: mOther
+  parent: Clay.Game.Mod.Entities.TurretSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mOther
+  nameWithType: TurretSpawnDef.mOther
+  fullName: Clay.Game.Mod.Entities.TurretSpawnDef.mOther
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mOther
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 494
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mOther
+    return:
+      type: System.String
+    content.vb: Public mOther As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.TurretSpawnDef.Register
+  commentId: M:Clay.Game.Mod.Entities.TurretSpawnDef.Register
+  id: Register
+  parent: Clay.Game.Mod.Entities.TurretSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: Register()
+  nameWithType: TurretSpawnDef.Register()
+  fullName: Clay.Game.Mod.Entities.TurretSpawnDef.Register()
+  type: Method
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Turret.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Register
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Turret.cs
+    startLine: 496
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public static void Register()
+    content.vb: Public Shared Sub Register
+  overload: Clay.Game.Mod.Entities.TurretSpawnDef.Register*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: EditorCommand
+  commentId: T:EditorCommand
+  name: EditorCommand
+  nameWithType: EditorCommand
+  fullName: EditorCommand
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Attributes
+  commentId: T:Attributes
+  name: Attributes
+  nameWithType: Attributes
+  fullName: Attributes
+- uid: Clay.Game.Mod.Entities.TurretSpawnDef.Register*
+  commentId: Overload:Clay.Game.Mod.Entities.TurretSpawnDef.Register
+  name: Register
+  nameWithType: TurretSpawnDef.Register
+  fullName: Clay.Game.Mod.Entities.TurretSpawnDef.Register

@@ -330,6 +330,11 @@ Properties
 
     .. dn:property:: Clay.Game.Mod.Entities.Entity._contactDamageAmount
 
+        
+        Contact damage is applied once every update, and only when entities overlap and are on
+        opposing Teams.
+
+
 
 
         :rtype: System.Single
@@ -2395,19 +2400,29 @@ Methods
 
     .. dn:method:: Clay.Game.Mod.Entities.Entity.DamagedBy(Clay.Game.Mod.Entities.Entity, System.Single, Weapon, System.Boolean, System.Boolean)
 
+        
+        Call to inflict damage on this entity.
 
 
+
+
+        :param attacker: The instigator of this damage
         :type attacker: Clay.Game.Mod.Entities.Entity
 
+        :param damage: How much damage to apply
         :type damage: System.Single
 
+        :param weapon: The weapon that belongs to the attacker dealing this damage.
         :type weapon: Weapon
 
+        :param effectHandled: If you are performing manual Effects, you should pass true to this method
         :type effectHandled: System.Boolean
 
+        :param fxHandled: If you are performing manual FX, you should pass true to this method
         :type fxHandled: System.Boolean
 
         :rtype: System.Boolean
+        :return: True if this method inflicts damage, False otherwise
 
         .. code-block:: csharp
 

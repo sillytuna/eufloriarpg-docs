@@ -1,0 +1,452 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.VortexFlags
+  commentId: T:Clay.Game.Mod.Entities.VortexFlags
+  id: VortexFlags
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.VortexFlags.Clockwise
+  - Clay.Game.Mod.Entities.VortexFlags.ColourCycling
+  - Clay.Game.Mod.Entities.VortexFlags.Down
+  - Clay.Game.Mod.Entities.VortexFlags.Hub
+  - Clay.Game.Mod.Entities.VortexFlags.None
+  - Clay.Game.Mod.Entities.VortexFlags.OverridePressure
+  - Clay.Game.Mod.Entities.VortexFlags.Sideways
+  - Clay.Game.Mod.Entities.VortexFlags.TranscendenceEnergy
+  - Clay.Game.Mod.Entities.VortexFlags.TranscendenceOut
+  - Clay.Game.Mod.Entities.VortexFlags.TranscendenceSpeed
+  - Clay.Game.Mod.Entities.VortexFlags.TranscendenceStrength
+  - Clay.Game.Mod.Entities.VortexFlags.Up
+  langs:
+  - csharp
+  - vb
+  name: VortexFlags
+  nameWithType: VortexFlags
+  fullName: Clay.Game.Mod.Entities.VortexFlags
+  type: Enum
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Vortex.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: VortexFlags
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Vortex.cs
+    startLine: 15
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum VortexFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum VortexFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Clay.Game.Mod.Entities.VortexFlags.None
+  commentId: F:Clay.Game.Mod.Entities.VortexFlags.None
+  id: None
+  parent: Clay.Game.Mod.Entities.VortexFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: VortexFlags.None
+  fullName: Clay.Game.Mod.Entities.VortexFlags.None
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Vortex.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: None
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Vortex.cs
+    startLine: 17
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: None = 0
+    return:
+      type: Clay.Game.Mod.Entities.VortexFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.VortexFlags.Clockwise
+  commentId: F:Clay.Game.Mod.Entities.VortexFlags.Clockwise
+  id: Clockwise
+  parent: Clay.Game.Mod.Entities.VortexFlags
+  langs:
+  - csharp
+  - vb
+  name: Clockwise
+  nameWithType: VortexFlags.Clockwise
+  fullName: Clay.Game.Mod.Entities.VortexFlags.Clockwise
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Vortex.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Clockwise
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Vortex.cs
+    startLine: 19
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Clockwise = 1
+    return:
+      type: Clay.Game.Mod.Entities.VortexFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.VortexFlags.ColourCycling
+  commentId: F:Clay.Game.Mod.Entities.VortexFlags.ColourCycling
+  id: ColourCycling
+  parent: Clay.Game.Mod.Entities.VortexFlags
+  langs:
+  - csharp
+  - vb
+  name: ColourCycling
+  nameWithType: VortexFlags.ColourCycling
+  fullName: Clay.Game.Mod.Entities.VortexFlags.ColourCycling
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Vortex.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: ColourCycling
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Vortex.cs
+    startLine: 20
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: ColourCycling = 2
+    return:
+      type: Clay.Game.Mod.Entities.VortexFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.VortexFlags.Sideways
+  commentId: F:Clay.Game.Mod.Entities.VortexFlags.Sideways
+  id: Sideways
+  parent: Clay.Game.Mod.Entities.VortexFlags
+  langs:
+  - csharp
+  - vb
+  name: Sideways
+  nameWithType: VortexFlags.Sideways
+  fullName: Clay.Game.Mod.Entities.VortexFlags.Sideways
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Vortex.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Sideways
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Vortex.cs
+    startLine: 22
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Sideways = 4
+    return:
+      type: Clay.Game.Mod.Entities.VortexFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.VortexFlags.Up
+  commentId: F:Clay.Game.Mod.Entities.VortexFlags.Up
+  id: Up
+  parent: Clay.Game.Mod.Entities.VortexFlags
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: VortexFlags.Up
+  fullName: Clay.Game.Mod.Entities.VortexFlags.Up
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Vortex.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Up
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Vortex.cs
+    startLine: 23
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Up = 8
+    return:
+      type: Clay.Game.Mod.Entities.VortexFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.VortexFlags.Down
+  commentId: F:Clay.Game.Mod.Entities.VortexFlags.Down
+  id: Down
+  parent: Clay.Game.Mod.Entities.VortexFlags
+  langs:
+  - csharp
+  - vb
+  name: Down
+  nameWithType: VortexFlags.Down
+  fullName: Clay.Game.Mod.Entities.VortexFlags.Down
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Vortex.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Down
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Vortex.cs
+    startLine: 24
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Down = 16
+    return:
+      type: Clay.Game.Mod.Entities.VortexFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.VortexFlags.Hub
+  commentId: F:Clay.Game.Mod.Entities.VortexFlags.Hub
+  id: Hub
+  parent: Clay.Game.Mod.Entities.VortexFlags
+  langs:
+  - csharp
+  - vb
+  name: Hub
+  nameWithType: VortexFlags.Hub
+  fullName: Clay.Game.Mod.Entities.VortexFlags.Hub
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Vortex.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Hub
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Vortex.cs
+    startLine: 25
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Hub = 32
+    return:
+      type: Clay.Game.Mod.Entities.VortexFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.VortexFlags.OverridePressure
+  commentId: F:Clay.Game.Mod.Entities.VortexFlags.OverridePressure
+  id: OverridePressure
+  parent: Clay.Game.Mod.Entities.VortexFlags
+  langs:
+  - csharp
+  - vb
+  name: OverridePressure
+  nameWithType: VortexFlags.OverridePressure
+  fullName: Clay.Game.Mod.Entities.VortexFlags.OverridePressure
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Vortex.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: OverridePressure
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Vortex.cs
+    startLine: 27
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: OverridePressure = 64
+    return:
+      type: Clay.Game.Mod.Entities.VortexFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.VortexFlags.TranscendenceEnergy
+  commentId: F:Clay.Game.Mod.Entities.VortexFlags.TranscendenceEnergy
+  id: TranscendenceEnergy
+  parent: Clay.Game.Mod.Entities.VortexFlags
+  langs:
+  - csharp
+  - vb
+  name: TranscendenceEnergy
+  nameWithType: VortexFlags.TranscendenceEnergy
+  fullName: Clay.Game.Mod.Entities.VortexFlags.TranscendenceEnergy
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Vortex.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: TranscendenceEnergy
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Vortex.cs
+    startLine: 29
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: TranscendenceEnergy = 128
+    return:
+      type: Clay.Game.Mod.Entities.VortexFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.VortexFlags.TranscendenceSpeed
+  commentId: F:Clay.Game.Mod.Entities.VortexFlags.TranscendenceSpeed
+  id: TranscendenceSpeed
+  parent: Clay.Game.Mod.Entities.VortexFlags
+  langs:
+  - csharp
+  - vb
+  name: TranscendenceSpeed
+  nameWithType: VortexFlags.TranscendenceSpeed
+  fullName: Clay.Game.Mod.Entities.VortexFlags.TranscendenceSpeed
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Vortex.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: TranscendenceSpeed
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Vortex.cs
+    startLine: 30
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: TranscendenceSpeed = 256
+    return:
+      type: Clay.Game.Mod.Entities.VortexFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.VortexFlags.TranscendenceStrength
+  commentId: F:Clay.Game.Mod.Entities.VortexFlags.TranscendenceStrength
+  id: TranscendenceStrength
+  parent: Clay.Game.Mod.Entities.VortexFlags
+  langs:
+  - csharp
+  - vb
+  name: TranscendenceStrength
+  nameWithType: VortexFlags.TranscendenceStrength
+  fullName: Clay.Game.Mod.Entities.VortexFlags.TranscendenceStrength
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Vortex.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: TranscendenceStrength
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Vortex.cs
+    startLine: 31
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: TranscendenceStrength = 512
+    return:
+      type: Clay.Game.Mod.Entities.VortexFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.VortexFlags.TranscendenceOut
+  commentId: F:Clay.Game.Mod.Entities.VortexFlags.TranscendenceOut
+  id: TranscendenceOut
+  parent: Clay.Game.Mod.Entities.VortexFlags
+  langs:
+  - csharp
+  - vb
+  name: TranscendenceOut
+  nameWithType: VortexFlags.TranscendenceOut
+  fullName: Clay.Game.Mod.Entities.VortexFlags.TranscendenceOut
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Vortex.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: TranscendenceOut
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Vortex.cs
+    startLine: 32
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: TranscendenceOut = 1024
+    return:
+      type: Clay.Game.Mod.Entities.VortexFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: Clay.Game.Mod.Entities.VortexFlags
+  commentId: T:Clay.Game.Mod.Entities.VortexFlags
+  parent: Clay.Game.Mod.Entities
+  name: VortexFlags
+  nameWithType: VortexFlags
+  fullName: Clay.Game.Mod.Entities.VortexFlags

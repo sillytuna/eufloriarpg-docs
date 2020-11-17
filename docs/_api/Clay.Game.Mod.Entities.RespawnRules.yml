@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.RespawnRules
+  commentId: T:Clay.Game.Mod.Entities.RespawnRules
+  id: RespawnRules
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.RespawnRules.Always
+  - Clay.Game.Mod.Entities.RespawnRules.Colony
+  - Clay.Game.Mod.Entities.RespawnRules.Never
+  - Clay.Game.Mod.Entities.RespawnRules.Save
+  - Clay.Game.Mod.Entities.RespawnRules.Undefined
+  langs:
+  - csharp
+  - vb
+  name: RespawnRules
+  nameWithType: RespawnRules
+  fullName: Clay.Game.Mod.Entities.RespawnRules
+  type: Enum
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: RespawnRules
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 51
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public enum RespawnRules
+    content.vb: Public Enum RespawnRules
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Clay.Game.Mod.Entities.RespawnRules.Undefined
+  commentId: F:Clay.Game.Mod.Entities.RespawnRules.Undefined
+  id: Undefined
+  parent: Clay.Game.Mod.Entities.RespawnRules
+  langs:
+  - csharp
+  - vb
+  name: Undefined
+  nameWithType: RespawnRules.Undefined
+  fullName: Clay.Game.Mod.Entities.RespawnRules.Undefined
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Undefined
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 52
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Undefined = 0
+    return:
+      type: Clay.Game.Mod.Entities.RespawnRules
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.RespawnRules.Never
+  commentId: F:Clay.Game.Mod.Entities.RespawnRules.Never
+  id: Never
+  parent: Clay.Game.Mod.Entities.RespawnRules
+  langs:
+  - csharp
+  - vb
+  name: Never
+  nameWithType: RespawnRules.Never
+  fullName: Clay.Game.Mod.Entities.RespawnRules.Never
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Never
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 53
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Never = 1
+    return:
+      type: Clay.Game.Mod.Entities.RespawnRules
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.RespawnRules.Colony
+  commentId: F:Clay.Game.Mod.Entities.RespawnRules.Colony
+  id: Colony
+  parent: Clay.Game.Mod.Entities.RespawnRules
+  langs:
+  - csharp
+  - vb
+  name: Colony
+  nameWithType: RespawnRules.Colony
+  fullName: Clay.Game.Mod.Entities.RespawnRules.Colony
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Colony
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 54
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Colony = 2
+    return:
+      type: Clay.Game.Mod.Entities.RespawnRules
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.RespawnRules.Save
+  commentId: F:Clay.Game.Mod.Entities.RespawnRules.Save
+  id: Save
+  parent: Clay.Game.Mod.Entities.RespawnRules
+  langs:
+  - csharp
+  - vb
+  name: Save
+  nameWithType: RespawnRules.Save
+  fullName: Clay.Game.Mod.Entities.RespawnRules.Save
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Save
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 55
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Save = 3
+    return:
+      type: Clay.Game.Mod.Entities.RespawnRules
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.RespawnRules.Always
+  commentId: F:Clay.Game.Mod.Entities.RespawnRules.Always
+  id: Always
+  parent: Clay.Game.Mod.Entities.RespawnRules
+  langs:
+  - csharp
+  - vb
+  name: Always
+  nameWithType: RespawnRules.Always
+  fullName: Clay.Game.Mod.Entities.RespawnRules.Always
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Always
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 56
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Always = 4
+    return:
+      type: Clay.Game.Mod.Entities.RespawnRules
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: Clay.Game.Mod.Entities.RespawnRules
+  commentId: T:Clay.Game.Mod.Entities.RespawnRules
+  parent: Clay.Game.Mod.Entities
+  name: RespawnRules
+  nameWithType: RespawnRules
+  fullName: Clay.Game.Mod.Entities.RespawnRules

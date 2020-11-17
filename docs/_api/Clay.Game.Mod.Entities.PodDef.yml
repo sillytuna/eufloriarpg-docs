@@ -1,0 +1,857 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.PodDef
+  commentId: T:Clay.Game.Mod.Entities.PodDef
+  id: PodDef
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.PodDef._damagedSfx
+  - Clay.Game.Mod.Entities.PodDef._emptySprite
+  - Clay.Game.Mod.Entities.PodDef._idleSfx
+  - Clay.Game.Mod.Entities.PodDef._lockedSprite
+  - Clay.Game.Mod.Entities.PodDef._openPfx
+  - Clay.Game.Mod.Entities.PodDef._openSfx
+  - Clay.Game.Mod.Entities.PodDef._scale
+  - Clay.Game.Mod.Entities.PodDef._unlockedSprite
+  - Clay.Game.Mod.Entities.PodDef._unlockSfx
+  - Clay.Game.Mod.Entities.PodDef.DamagedSfx
+  - Clay.Game.Mod.Entities.PodDef.EmptySprite
+  - Clay.Game.Mod.Entities.PodDef.IdleSfx
+  - Clay.Game.Mod.Entities.PodDef.InitialiseDef(Tuna.Setting)
+  - Clay.Game.Mod.Entities.PodDef.LockedSprite
+  - Clay.Game.Mod.Entities.PodDef.OpenPfx
+  - Clay.Game.Mod.Entities.PodDef.OpenSfx
+  - Clay.Game.Mod.Entities.PodDef.Scale
+  - Clay.Game.Mod.Entities.PodDef.UnlockedSprite
+  - Clay.Game.Mod.Entities.PodDef.UnlockSfx
+  langs:
+  - csharp
+  - vb
+  name: PodDef
+  nameWithType: PodDef
+  fullName: Clay.Game.Mod.Entities.PodDef
+  type: Class
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: PodDef
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 4
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public class PodDef
+    content.vb: Public Class PodDef
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Clay.Game.Mod.Entities.PodDef._idleSfx
+  commentId: P:Clay.Game.Mod.Entities.PodDef._idleSfx
+  id: _idleSfx
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: _idleSfx
+  nameWithType: PodDef._idleSfx
+  fullName: Clay.Game.Mod.Entities.PodDef._idleSfx
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: _idleSfx
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 6
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string _idleSfx { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property _idleSfx As String
+  overload: Clay.Game.Mod.Entities.PodDef._idleSfx*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.PodDef._openSfx
+  commentId: P:Clay.Game.Mod.Entities.PodDef._openSfx
+  id: _openSfx
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: _openSfx
+  nameWithType: PodDef._openSfx
+  fullName: Clay.Game.Mod.Entities.PodDef._openSfx
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: _openSfx
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 7
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string _openSfx { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property _openSfx As String
+  overload: Clay.Game.Mod.Entities.PodDef._openSfx*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.PodDef._openPfx
+  commentId: P:Clay.Game.Mod.Entities.PodDef._openPfx
+  id: _openPfx
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: _openPfx
+  nameWithType: PodDef._openPfx
+  fullName: Clay.Game.Mod.Entities.PodDef._openPfx
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: _openPfx
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 8
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string _openPfx { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property _openPfx As String
+  overload: Clay.Game.Mod.Entities.PodDef._openPfx*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.PodDef._unlockSfx
+  commentId: P:Clay.Game.Mod.Entities.PodDef._unlockSfx
+  id: _unlockSfx
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: _unlockSfx
+  nameWithType: PodDef._unlockSfx
+  fullName: Clay.Game.Mod.Entities.PodDef._unlockSfx
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: _unlockSfx
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 9
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string _unlockSfx { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property _unlockSfx As String
+  overload: Clay.Game.Mod.Entities.PodDef._unlockSfx*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.PodDef._damagedSfx
+  commentId: P:Clay.Game.Mod.Entities.PodDef._damagedSfx
+  id: _damagedSfx
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: _damagedSfx
+  nameWithType: PodDef._damagedSfx
+  fullName: Clay.Game.Mod.Entities.PodDef._damagedSfx
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: _damagedSfx
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 10
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string _damagedSfx { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property _damagedSfx As String
+  overload: Clay.Game.Mod.Entities.PodDef._damagedSfx*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.PodDef._lockedSprite
+  commentId: P:Clay.Game.Mod.Entities.PodDef._lockedSprite
+  id: _lockedSprite
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: _lockedSprite
+  nameWithType: PodDef._lockedSprite
+  fullName: Clay.Game.Mod.Entities.PodDef._lockedSprite
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: _lockedSprite
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 11
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string _lockedSprite { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property _lockedSprite As String
+  overload: Clay.Game.Mod.Entities.PodDef._lockedSprite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.PodDef._emptySprite
+  commentId: P:Clay.Game.Mod.Entities.PodDef._emptySprite
+  id: _emptySprite
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: _emptySprite
+  nameWithType: PodDef._emptySprite
+  fullName: Clay.Game.Mod.Entities.PodDef._emptySprite
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: _emptySprite
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 12
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string _emptySprite { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property _emptySprite As String
+  overload: Clay.Game.Mod.Entities.PodDef._emptySprite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.PodDef._unlockedSprite
+  commentId: P:Clay.Game.Mod.Entities.PodDef._unlockedSprite
+  id: _unlockedSprite
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: _unlockedSprite
+  nameWithType: PodDef._unlockedSprite
+  fullName: Clay.Game.Mod.Entities.PodDef._unlockedSprite
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: _unlockedSprite
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 13
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string _unlockedSprite { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property _unlockedSprite As String
+  overload: Clay.Game.Mod.Entities.PodDef._unlockedSprite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.PodDef._scale
+  commentId: P:Clay.Game.Mod.Entities.PodDef._scale
+  id: _scale
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: _scale
+  nameWithType: PodDef._scale
+  fullName: Clay.Game.Mod.Entities.PodDef._scale
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: _scale
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 14
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public float _scale { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property _scale As Single
+  overload: Clay.Game.Mod.Entities.PodDef._scale*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.PodDef.IdleSfx
+  commentId: P:Clay.Game.Mod.Entities.PodDef.IdleSfx
+  id: IdleSfx
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: IdleSfx
+  nameWithType: PodDef.IdleSfx
+  fullName: Clay.Game.Mod.Entities.PodDef.IdleSfx
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: IdleSfx
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 16
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string IdleSfx { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property IdleSfx As String
+  overload: Clay.Game.Mod.Entities.PodDef.IdleSfx*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Clay.Game.Mod.Entities.PodDef.OpenSfx
+  commentId: P:Clay.Game.Mod.Entities.PodDef.OpenSfx
+  id: OpenSfx
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: OpenSfx
+  nameWithType: PodDef.OpenSfx
+  fullName: Clay.Game.Mod.Entities.PodDef.OpenSfx
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: OpenSfx
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 17
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string OpenSfx { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property OpenSfx As String
+  overload: Clay.Game.Mod.Entities.PodDef.OpenSfx*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Clay.Game.Mod.Entities.PodDef.UnlockSfx
+  commentId: P:Clay.Game.Mod.Entities.PodDef.UnlockSfx
+  id: UnlockSfx
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: UnlockSfx
+  nameWithType: PodDef.UnlockSfx
+  fullName: Clay.Game.Mod.Entities.PodDef.UnlockSfx
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: UnlockSfx
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 18
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string UnlockSfx { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property UnlockSfx As String
+  overload: Clay.Game.Mod.Entities.PodDef.UnlockSfx*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Clay.Game.Mod.Entities.PodDef.DamagedSfx
+  commentId: P:Clay.Game.Mod.Entities.PodDef.DamagedSfx
+  id: DamagedSfx
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: DamagedSfx
+  nameWithType: PodDef.DamagedSfx
+  fullName: Clay.Game.Mod.Entities.PodDef.DamagedSfx
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: DamagedSfx
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 19
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string DamagedSfx { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DamagedSfx As String
+  overload: Clay.Game.Mod.Entities.PodDef.DamagedSfx*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Clay.Game.Mod.Entities.PodDef.OpenPfx
+  commentId: P:Clay.Game.Mod.Entities.PodDef.OpenPfx
+  id: OpenPfx
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: OpenPfx
+  nameWithType: PodDef.OpenPfx
+  fullName: Clay.Game.Mod.Entities.PodDef.OpenPfx
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: OpenPfx
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 21
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string OpenPfx { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property OpenPfx As String
+  overload: Clay.Game.Mod.Entities.PodDef.OpenPfx*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Clay.Game.Mod.Entities.PodDef.LockedSprite
+  commentId: P:Clay.Game.Mod.Entities.PodDef.LockedSprite
+  id: LockedSprite
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: LockedSprite
+  nameWithType: PodDef.LockedSprite
+  fullName: Clay.Game.Mod.Entities.PodDef.LockedSprite
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: LockedSprite
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 22
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string LockedSprite { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property LockedSprite As String
+  overload: Clay.Game.Mod.Entities.PodDef.LockedSprite*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Clay.Game.Mod.Entities.PodDef.EmptySprite
+  commentId: P:Clay.Game.Mod.Entities.PodDef.EmptySprite
+  id: EmptySprite
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: EmptySprite
+  nameWithType: PodDef.EmptySprite
+  fullName: Clay.Game.Mod.Entities.PodDef.EmptySprite
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: EmptySprite
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 23
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string EmptySprite { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property EmptySprite As String
+  overload: Clay.Game.Mod.Entities.PodDef.EmptySprite*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Clay.Game.Mod.Entities.PodDef.UnlockedSprite
+  commentId: P:Clay.Game.Mod.Entities.PodDef.UnlockedSprite
+  id: UnlockedSprite
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: UnlockedSprite
+  nameWithType: PodDef.UnlockedSprite
+  fullName: Clay.Game.Mod.Entities.PodDef.UnlockedSprite
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: UnlockedSprite
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 24
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string UnlockedSprite { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property UnlockedSprite As String
+  overload: Clay.Game.Mod.Entities.PodDef.UnlockedSprite*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Clay.Game.Mod.Entities.PodDef.Scale
+  commentId: P:Clay.Game.Mod.Entities.PodDef.Scale
+  id: Scale
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: PodDef.Scale
+  fullName: Clay.Game.Mod.Entities.PodDef.Scale
+  type: Property
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Scale
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 25
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public float Scale { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Scale As Single
+  overload: Clay.Game.Mod.Entities.PodDef.Scale*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Clay.Game.Mod.Entities.PodDef.InitialiseDef(Tuna.Setting)
+  commentId: M:Clay.Game.Mod.Entities.PodDef.InitialiseDef(Tuna.Setting)
+  id: InitialiseDef(Tuna.Setting)
+  parent: Clay.Game.Mod.Entities.PodDef
+  langs:
+  - csharp
+  - vb
+  name: InitialiseDef(Setting)
+  nameWithType: PodDef.InitialiseDef(Setting)
+  fullName: Clay.Game.Mod.Entities.PodDef.InitialiseDef(Tuna.Setting)
+  type: Method
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PodDef.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: InitialiseDef
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PodDef.cs
+    startLine: 27
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public void InitialiseDef(Setting root)
+    parameters:
+    - id: root
+      type: Tuna.Setting
+    content.vb: Public Sub InitialiseDef(root As Setting)
+  overload: Clay.Game.Mod.Entities.PodDef.InitialiseDef*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Clay.Game.Mod.Entities.PodDef._idleSfx*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef._idleSfx
+  name: _idleSfx
+  nameWithType: PodDef._idleSfx
+  fullName: Clay.Game.Mod.Entities.PodDef._idleSfx
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Clay.Game.Mod.Entities.PodDef._openSfx*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef._openSfx
+  name: _openSfx
+  nameWithType: PodDef._openSfx
+  fullName: Clay.Game.Mod.Entities.PodDef._openSfx
+- uid: Clay.Game.Mod.Entities.PodDef._openPfx*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef._openPfx
+  name: _openPfx
+  nameWithType: PodDef._openPfx
+  fullName: Clay.Game.Mod.Entities.PodDef._openPfx
+- uid: Clay.Game.Mod.Entities.PodDef._unlockSfx*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef._unlockSfx
+  name: _unlockSfx
+  nameWithType: PodDef._unlockSfx
+  fullName: Clay.Game.Mod.Entities.PodDef._unlockSfx
+- uid: Clay.Game.Mod.Entities.PodDef._damagedSfx*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef._damagedSfx
+  name: _damagedSfx
+  nameWithType: PodDef._damagedSfx
+  fullName: Clay.Game.Mod.Entities.PodDef._damagedSfx
+- uid: Clay.Game.Mod.Entities.PodDef._lockedSprite*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef._lockedSprite
+  name: _lockedSprite
+  nameWithType: PodDef._lockedSprite
+  fullName: Clay.Game.Mod.Entities.PodDef._lockedSprite
+- uid: Clay.Game.Mod.Entities.PodDef._emptySprite*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef._emptySprite
+  name: _emptySprite
+  nameWithType: PodDef._emptySprite
+  fullName: Clay.Game.Mod.Entities.PodDef._emptySprite
+- uid: Clay.Game.Mod.Entities.PodDef._unlockedSprite*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef._unlockedSprite
+  name: _unlockedSprite
+  nameWithType: PodDef._unlockedSprite
+  fullName: Clay.Game.Mod.Entities.PodDef._unlockedSprite
+- uid: Clay.Game.Mod.Entities.PodDef._scale*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef._scale
+  name: _scale
+  nameWithType: PodDef._scale
+  fullName: Clay.Game.Mod.Entities.PodDef._scale
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Clay.Game.Mod.Entities.PodDef.IdleSfx*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef.IdleSfx
+  name: IdleSfx
+  nameWithType: PodDef.IdleSfx
+  fullName: Clay.Game.Mod.Entities.PodDef.IdleSfx
+- uid: Clay.Game.Mod.Entities.PodDef.OpenSfx*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef.OpenSfx
+  name: OpenSfx
+  nameWithType: PodDef.OpenSfx
+  fullName: Clay.Game.Mod.Entities.PodDef.OpenSfx
+- uid: Clay.Game.Mod.Entities.PodDef.UnlockSfx*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef.UnlockSfx
+  name: UnlockSfx
+  nameWithType: PodDef.UnlockSfx
+  fullName: Clay.Game.Mod.Entities.PodDef.UnlockSfx
+- uid: Clay.Game.Mod.Entities.PodDef.DamagedSfx*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef.DamagedSfx
+  name: DamagedSfx
+  nameWithType: PodDef.DamagedSfx
+  fullName: Clay.Game.Mod.Entities.PodDef.DamagedSfx
+- uid: Clay.Game.Mod.Entities.PodDef.OpenPfx*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef.OpenPfx
+  name: OpenPfx
+  nameWithType: PodDef.OpenPfx
+  fullName: Clay.Game.Mod.Entities.PodDef.OpenPfx
+- uid: Clay.Game.Mod.Entities.PodDef.LockedSprite*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef.LockedSprite
+  name: LockedSprite
+  nameWithType: PodDef.LockedSprite
+  fullName: Clay.Game.Mod.Entities.PodDef.LockedSprite
+- uid: Clay.Game.Mod.Entities.PodDef.EmptySprite*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef.EmptySprite
+  name: EmptySprite
+  nameWithType: PodDef.EmptySprite
+  fullName: Clay.Game.Mod.Entities.PodDef.EmptySprite
+- uid: Clay.Game.Mod.Entities.PodDef.UnlockedSprite*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef.UnlockedSprite
+  name: UnlockedSprite
+  nameWithType: PodDef.UnlockedSprite
+  fullName: Clay.Game.Mod.Entities.PodDef.UnlockedSprite
+- uid: Clay.Game.Mod.Entities.PodDef.Scale*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef.Scale
+  name: Scale
+  nameWithType: PodDef.Scale
+  fullName: Clay.Game.Mod.Entities.PodDef.Scale
+- uid: Clay.Game.Mod.Entities.PodDef.InitialiseDef*
+  commentId: Overload:Clay.Game.Mod.Entities.PodDef.InitialiseDef
+  name: InitialiseDef
+  nameWithType: PodDef.InitialiseDef
+  fullName: Clay.Game.Mod.Entities.PodDef.InitialiseDef
+- uid: Tuna.Setting
+  commentId: T:Tuna.Setting
+  parent: Tuna
+  name: Setting
+  nameWithType: Setting
+  fullName: Tuna.Setting
+- uid: Tuna
+  commentId: N:Tuna
+  name: Tuna
+  nameWithType: Tuna
+  fullName: Tuna

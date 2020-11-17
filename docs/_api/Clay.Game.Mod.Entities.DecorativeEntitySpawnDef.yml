@@ -1,0 +1,296 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef
+  commentId: T:Clay.Game.Mod.Entities.DecorativeEntitySpawnDef
+  id: DecorativeEntitySpawnDef
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mAngle
+  - Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mPosition
+  - Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mScale
+  - Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mType
+  - Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.Register
+  langs:
+  - csharp
+  - vb
+  name: DecorativeEntitySpawnDef
+  nameWithType: DecorativeEntitySpawnDef
+  fullName: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef
+  type: Class
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/DecorativeEntity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: DecorativeEntitySpawnDef
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/DecorativeEntity.cs
+    startLine: 109
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: 'public class DecorativeEntitySpawnDef : EditorCommand'
+    content.vb: >-
+      Public Class DecorativeEntitySpawnDef
+          Inherits EditorCommand
+  inheritance:
+  - System.Object
+  - EditorCommand
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mType
+  commentId: F:Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mType
+  id: mType
+  parent: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mType
+  nameWithType: DecorativeEntitySpawnDef.mType
+  fullName: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mType
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/DecorativeEntity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mType
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/DecorativeEntity.cs
+    startLine: 114
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: >-
+      [UsedImplicitly]
+
+      public string mType
+    return:
+      type: System.String
+    content.vb: >-
+      <UsedImplicitly>
+
+      Public mType As String
+  attributes:
+  - type: JetBrains.Annotations.UsedImplicitlyAttribute
+    ctor: JetBrains.Annotations.UsedImplicitlyAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mPosition
+  commentId: F:Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mPosition
+  id: mPosition
+  parent: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mPosition
+  nameWithType: DecorativeEntitySpawnDef.mPosition
+  fullName: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mPosition
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/DecorativeEntity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mPosition
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/DecorativeEntity.cs
+    startLine: 118
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: >-
+      [UsedImplicitly]
+
+      public Vector2 mPosition
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <UsedImplicitly>
+
+      Public mPosition As Vector2
+  attributes:
+  - type: JetBrains.Annotations.UsedImplicitlyAttribute
+    ctor: JetBrains.Annotations.UsedImplicitlyAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mAngle
+  commentId: F:Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mAngle
+  id: mAngle
+  parent: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mAngle
+  nameWithType: DecorativeEntitySpawnDef.mAngle
+  fullName: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mAngle
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/DecorativeEntity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mAngle
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/DecorativeEntity.cs
+    startLine: 122
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: >-
+      [UsedImplicitly]
+
+      public float mAngle
+    return:
+      type: System.Single
+    content.vb: >-
+      <UsedImplicitly>
+
+      Public mAngle As Single
+  attributes:
+  - type: JetBrains.Annotations.UsedImplicitlyAttribute
+    ctor: JetBrains.Annotations.UsedImplicitlyAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mScale
+  commentId: F:Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mScale
+  id: mScale
+  parent: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mScale
+  nameWithType: DecorativeEntitySpawnDef.mScale
+  fullName: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.mScale
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/DecorativeEntity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mScale
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/DecorativeEntity.cs
+    startLine: 126
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: >-
+      [UsedImplicitly]
+
+      public Vector2 mScale
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <UsedImplicitly>
+
+      Public mScale As Vector2
+  attributes:
+  - type: JetBrains.Annotations.UsedImplicitlyAttribute
+    ctor: JetBrains.Annotations.UsedImplicitlyAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.Register
+  commentId: M:Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.Register
+  id: Register
+  parent: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: Register()
+  nameWithType: DecorativeEntitySpawnDef.Register()
+  fullName: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.Register()
+  type: Method
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/DecorativeEntity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Register
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/DecorativeEntity.cs
+    startLine: 128
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public static void Register()
+    content.vb: Public Shared Sub Register
+  overload: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.Register*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: EditorCommand
+  commentId: T:EditorCommand
+  name: EditorCommand
+  nameWithType: EditorCommand
+  fullName: EditorCommand
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.Register*
+  commentId: Overload:Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.Register
+  name: Register
+  nameWithType: DecorativeEntitySpawnDef.Register
+  fullName: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef.Register

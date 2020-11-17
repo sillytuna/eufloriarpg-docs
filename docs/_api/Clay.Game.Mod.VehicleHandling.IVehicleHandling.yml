@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.VehicleHandling.IVehicleHandling
+  commentId: T:Clay.Game.Mod.VehicleHandling.IVehicleHandling
+  id: IVehicleHandling
+  parent: Clay.Game.Mod.VehicleHandling
+  children:
+  - Clay.Game.Mod.VehicleHandling.IVehicleHandling.Update(Clay.Game.Mod.Entities.Vehicle,System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: IVehicleHandling
+  nameWithType: IVehicleHandling
+  fullName: Clay.Game.Mod.VehicleHandling.IVehicleHandling
+  type: Interface
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/VehicleHandling/IVehicleHandling.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: IVehicleHandling
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/VehicleHandling/IVehicleHandling.cs
+    startLine: 4
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.VehicleHandling
+  syntax:
+    content: public interface IVehicleHandling
+    content.vb: Public Interface IVehicleHandling
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Clay.Game.Mod.VehicleHandling.IVehicleHandling.Update(Clay.Game.Mod.Entities.Vehicle,System.Single,System.Single)
+  commentId: M:Clay.Game.Mod.VehicleHandling.IVehicleHandling.Update(Clay.Game.Mod.Entities.Vehicle,System.Single,System.Single)
+  id: Update(Clay.Game.Mod.Entities.Vehicle,System.Single,System.Single)
+  parent: Clay.Game.Mod.VehicleHandling.IVehicleHandling
+  langs:
+  - csharp
+  - vb
+  name: Update(Vehicle, Single, Single)
+  nameWithType: IVehicleHandling.Update(Vehicle, Single, Single)
+  fullName: Clay.Game.Mod.VehicleHandling.IVehicleHandling.Update(Clay.Game.Mod.Entities.Vehicle, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/VehicleHandling/IVehicleHandling.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Update
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/VehicleHandling/IVehicleHandling.cs
+    startLine: 6
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.VehicleHandling
+  syntax:
+    content: void Update(Vehicle vehicle, float time, float normalisedDoorTimer)
+    parameters:
+    - id: vehicle
+      type: Clay.Game.Mod.Entities.Vehicle
+    - id: time
+      type: System.Single
+    - id: normalisedDoorTimer
+      type: System.Single
+    content.vb: Sub Update(vehicle As Vehicle, time As Single, normalisedDoorTimer As Single)
+  overload: Clay.Game.Mod.VehicleHandling.IVehicleHandling.Update*
+references:
+- uid: Clay.Game.Mod.VehicleHandling
+  commentId: N:Clay.Game.Mod.VehicleHandling
+  name: Clay.Game.Mod.VehicleHandling
+  nameWithType: Clay.Game.Mod.VehicleHandling
+  fullName: Clay.Game.Mod.VehicleHandling
+- uid: Clay.Game.Mod.VehicleHandling.IVehicleHandling.Update*
+  commentId: Overload:Clay.Game.Mod.VehicleHandling.IVehicleHandling.Update
+  name: Update
+  nameWithType: IVehicleHandling.Update
+  fullName: Clay.Game.Mod.VehicleHandling.IVehicleHandling.Update
+- uid: Clay.Game.Mod.Entities.Vehicle
+  commentId: T:Clay.Game.Mod.Entities.Vehicle
+  parent: Clay.Game.Mod.Entities
+  name: Vehicle
+  nameWithType: Vehicle
+  fullName: Clay.Game.Mod.Entities.Vehicle
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

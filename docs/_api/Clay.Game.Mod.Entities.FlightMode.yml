@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.FlightMode
+  commentId: T:Clay.Game.Mod.Entities.FlightMode
+  id: FlightMode
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.FlightMode.Attacking
+  - Clay.Game.Mod.Entities.FlightMode.Flying
+  langs:
+  - csharp
+  - vb
+  name: FlightMode
+  nameWithType: FlightMode
+  fullName: Clay.Game.Mod.Entities.FlightMode
+  type: Enum
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: FlightMode
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+    startLine: 2766
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public enum FlightMode
+    content.vb: Public Enum FlightMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Clay.Game.Mod.Entities.FlightMode.Flying
+  commentId: F:Clay.Game.Mod.Entities.FlightMode.Flying
+  id: Flying
+  parent: Clay.Game.Mod.Entities.FlightMode
+  langs:
+  - csharp
+  - vb
+  name: Flying
+  nameWithType: FlightMode.Flying
+  fullName: Clay.Game.Mod.Entities.FlightMode.Flying
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Flying
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+    startLine: 2768
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Flying = 0
+    return:
+      type: Clay.Game.Mod.Entities.FlightMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.FlightMode.Attacking
+  commentId: F:Clay.Game.Mod.Entities.FlightMode.Attacking
+  id: Attacking
+  parent: Clay.Game.Mod.Entities.FlightMode
+  langs:
+  - csharp
+  - vb
+  name: Attacking
+  nameWithType: FlightMode.Attacking
+  fullName: Clay.Game.Mod.Entities.FlightMode.Attacking
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Attacking
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/PlayerShip.cs
+    startLine: 2769
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Attacking = 1
+    return:
+      type: Clay.Game.Mod.Entities.FlightMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: Clay.Game.Mod.Entities.FlightMode
+  commentId: T:Clay.Game.Mod.Entities.FlightMode
+  parent: Clay.Game.Mod.Entities
+  name: FlightMode
+  nameWithType: FlightMode
+  fullName: Clay.Game.Mod.Entities.FlightMode

@@ -1,0 +1,749 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.EntityFlags
+  commentId: T:Clay.Game.Mod.Entities.EntityFlags
+  id: EntityFlags
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.EntityFlags.Attracts
+  - Clay.Game.Mod.Entities.EntityFlags.Colonist
+  - Clay.Game.Mod.Entities.EntityFlags.ColonyAttackResponse
+  - Clay.Game.Mod.Entities.EntityFlags.ContactDamage
+  - Clay.Game.Mod.Entities.EntityFlags.EnergyDropper
+  - Clay.Game.Mod.Entities.EntityFlags.ExplosiveDamage
+  - Clay.Game.Mod.Entities.EntityFlags.FreezeDamage
+  - Clay.Game.Mod.Entities.EntityFlags.Interactive
+  - Clay.Game.Mod.Entities.EntityFlags.Invulnerable
+  - Clay.Game.Mod.Entities.EntityFlags.LineOfSight
+  - Clay.Game.Mod.Entities.EntityFlags.Mine
+  - Clay.Game.Mod.Entities.EntityFlags.None
+  - Clay.Game.Mod.Entities.EntityFlags.PreferredTarget
+  - Clay.Game.Mod.Entities.EntityFlags.Repels
+  - Clay.Game.Mod.Entities.EntityFlags.Rotates
+  - Clay.Game.Mod.Entities.EntityFlags.SeekFriendlyPlayer
+  - Clay.Game.Mod.Entities.EntityFlags.SeekTargets
+  - Clay.Game.Mod.Entities.EntityFlags.SicknessDamage
+  - Clay.Game.Mod.Entities.EntityFlags.StasisDamage
+  - Clay.Game.Mod.Entities.EntityFlags.SuppressionDamage
+  - Clay.Game.Mod.Entities.EntityFlags.WeaponDamage
+  langs:
+  - csharp
+  - vb
+  name: EntityFlags
+  nameWithType: EntityFlags
+  fullName: Clay.Game.Mod.Entities.EntityFlags
+  type: Enum
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: EntityFlags
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 20
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum EntityFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum EntityFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Clay.Game.Mod.Entities.EntityFlags.None
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.None
+  id: None
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: EntityFlags.None
+  fullName: Clay.Game.Mod.Entities.EntityFlags.None
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: None
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 22
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: None = 0
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.Attracts
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.Attracts
+  id: Attracts
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: Attracts
+  nameWithType: EntityFlags.Attracts
+  fullName: Clay.Game.Mod.Entities.EntityFlags.Attracts
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Attracts
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 24
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Attracts = 1
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.Repels
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.Repels
+  id: Repels
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: Repels
+  nameWithType: EntityFlags.Repels
+  fullName: Clay.Game.Mod.Entities.EntityFlags.Repels
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Repels
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 25
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Repels = 2
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.PreferredTarget
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.PreferredTarget
+  id: PreferredTarget
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: PreferredTarget
+  nameWithType: EntityFlags.PreferredTarget
+  fullName: Clay.Game.Mod.Entities.EntityFlags.PreferredTarget
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: PreferredTarget
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 26
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: PreferredTarget = 4
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.SeekTargets
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.SeekTargets
+  id: SeekTargets
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: SeekTargets
+  nameWithType: EntityFlags.SeekTargets
+  fullName: Clay.Game.Mod.Entities.EntityFlags.SeekTargets
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: SeekTargets
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 27
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: SeekTargets = 8
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.SeekFriendlyPlayer
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.SeekFriendlyPlayer
+  id: SeekFriendlyPlayer
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: SeekFriendlyPlayer
+  nameWithType: EntityFlags.SeekFriendlyPlayer
+  fullName: Clay.Game.Mod.Entities.EntityFlags.SeekFriendlyPlayer
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: SeekFriendlyPlayer
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 28
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: SeekFriendlyPlayer = 16
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.Interactive
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.Interactive
+  id: Interactive
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: Interactive
+  nameWithType: EntityFlags.Interactive
+  fullName: Clay.Game.Mod.Entities.EntityFlags.Interactive
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Interactive
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 30
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Interactive = 256
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.Rotates
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.Rotates
+  id: Rotates
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: Rotates
+  nameWithType: EntityFlags.Rotates
+  fullName: Clay.Game.Mod.Entities.EntityFlags.Rotates
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Rotates
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 31
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Rotates = 512
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.LineOfSight
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.LineOfSight
+  id: LineOfSight
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: LineOfSight
+  nameWithType: EntityFlags.LineOfSight
+  fullName: Clay.Game.Mod.Entities.EntityFlags.LineOfSight
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: LineOfSight
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 32
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: LineOfSight = 1024
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.EnergyDropper
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.EnergyDropper
+  id: EnergyDropper
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: EnergyDropper
+  nameWithType: EntityFlags.EnergyDropper
+  fullName: Clay.Game.Mod.Entities.EntityFlags.EnergyDropper
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: EnergyDropper
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 34
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: EnergyDropper = 65536
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.WeaponDamage
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.WeaponDamage
+  id: WeaponDamage
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: WeaponDamage
+  nameWithType: EntityFlags.WeaponDamage
+  fullName: Clay.Game.Mod.Entities.EntityFlags.WeaponDamage
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: WeaponDamage
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 35
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: WeaponDamage = 131072
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.ExplosiveDamage
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.ExplosiveDamage
+  id: ExplosiveDamage
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: ExplosiveDamage
+  nameWithType: EntityFlags.ExplosiveDamage
+  fullName: Clay.Game.Mod.Entities.EntityFlags.ExplosiveDamage
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: ExplosiveDamage
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 36
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: ExplosiveDamage = 262144
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.StasisDamage
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.StasisDamage
+  id: StasisDamage
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: StasisDamage
+  nameWithType: EntityFlags.StasisDamage
+  fullName: Clay.Game.Mod.Entities.EntityFlags.StasisDamage
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: StasisDamage
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 37
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: StasisDamage = 524288
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.SicknessDamage
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.SicknessDamage
+  id: SicknessDamage
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: SicknessDamage
+  nameWithType: EntityFlags.SicknessDamage
+  fullName: Clay.Game.Mod.Entities.EntityFlags.SicknessDamage
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: SicknessDamage
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 38
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: SicknessDamage = 1048576
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.SuppressionDamage
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.SuppressionDamage
+  id: SuppressionDamage
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: SuppressionDamage
+  nameWithType: EntityFlags.SuppressionDamage
+  fullName: Clay.Game.Mod.Entities.EntityFlags.SuppressionDamage
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: SuppressionDamage
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 39
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: SuppressionDamage = 2097152
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.FreezeDamage
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.FreezeDamage
+  id: FreezeDamage
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: FreezeDamage
+  nameWithType: EntityFlags.FreezeDamage
+  fullName: Clay.Game.Mod.Entities.EntityFlags.FreezeDamage
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: FreezeDamage
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 40
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: FreezeDamage = 4194304
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.Colonist
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.Colonist
+  id: Colonist
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: Colonist
+  nameWithType: EntityFlags.Colonist
+  fullName: Clay.Game.Mod.Entities.EntityFlags.Colonist
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Colonist
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 42
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Colonist = 16777216
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.Mine
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.Mine
+  id: Mine
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: Mine
+  nameWithType: EntityFlags.Mine
+  fullName: Clay.Game.Mod.Entities.EntityFlags.Mine
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Mine
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 43
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Mine = 33554432
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.ColonyAttackResponse
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.ColonyAttackResponse
+  id: ColonyAttackResponse
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: ColonyAttackResponse
+  nameWithType: EntityFlags.ColonyAttackResponse
+  fullName: Clay.Game.Mod.Entities.EntityFlags.ColonyAttackResponse
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: ColonyAttackResponse
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 44
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: ColonyAttackResponse = 67108864
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.ContactDamage
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.ContactDamage
+  id: ContactDamage
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: ContactDamage
+  nameWithType: EntityFlags.ContactDamage
+  fullName: Clay.Game.Mod.Entities.EntityFlags.ContactDamage
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: ContactDamage
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 46
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: ContactDamage = 134217728
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EntityFlags.Invulnerable
+  commentId: F:Clay.Game.Mod.Entities.EntityFlags.Invulnerable
+  id: Invulnerable
+  parent: Clay.Game.Mod.Entities.EntityFlags
+  langs:
+  - csharp
+  - vb
+  name: Invulnerable
+  nameWithType: EntityFlags.Invulnerable
+  fullName: Clay.Game.Mod.Entities.EntityFlags.Invulnerable
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Invulnerable
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 47
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Invulnerable = 268435456
+    return:
+      type: Clay.Game.Mod.Entities.EntityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: Clay.Game.Mod.Entities.EntityFlags
+  commentId: T:Clay.Game.Mod.Entities.EntityFlags
+  parent: Clay.Game.Mod.Entities
+  name: EntityFlags
+  nameWithType: EntityFlags
+  fullName: Clay.Game.Mod.Entities.EntityFlags

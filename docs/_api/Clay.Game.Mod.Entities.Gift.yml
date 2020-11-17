@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.Gift
+  commentId: T:Clay.Game.Mod.Entities.Gift
+  id: Gift
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.Gift.#ctor(PlayerPaths,System.String,System.String)
+  - Clay.Game.Mod.Entities.Gift.item
+  - Clay.Game.Mod.Entities.Gift.message
+  - Clay.Game.Mod.Entities.Gift.path
+  langs:
+  - csharp
+  - vb
+  name: Gift
+  nameWithType: Gift
+  fullName: Clay.Game.Mod.Entities.Gift
+  type: Class
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Flora.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Gift
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Flora.cs
+    startLine: 23
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public class Gift
+    content.vb: Public Class Gift
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Clay.Game.Mod.Entities.Gift.path
+  commentId: F:Clay.Game.Mod.Entities.Gift.path
+  id: path
+  parent: Clay.Game.Mod.Entities.Gift
+  langs:
+  - csharp
+  - vb
+  name: path
+  nameWithType: Gift.path
+  fullName: Clay.Game.Mod.Entities.Gift.path
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Flora.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: path
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Flora.cs
+    startLine: 25
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public PlayerPaths path
+    return:
+      type: PlayerPaths
+    content.vb: Public path As PlayerPaths
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.Gift.item
+  commentId: F:Clay.Game.Mod.Entities.Gift.item
+  id: item
+  parent: Clay.Game.Mod.Entities.Gift
+  langs:
+  - csharp
+  - vb
+  name: item
+  nameWithType: Gift.item
+  fullName: Clay.Game.Mod.Entities.Gift.item
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Flora.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: item
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Flora.cs
+    startLine: 26
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string item
+    return:
+      type: System.String
+    content.vb: Public item As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.Gift.message
+  commentId: F:Clay.Game.Mod.Entities.Gift.message
+  id: message
+  parent: Clay.Game.Mod.Entities.Gift
+  langs:
+  - csharp
+  - vb
+  name: message
+  nameWithType: Gift.message
+  fullName: Clay.Game.Mod.Entities.Gift.message
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Flora.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: message
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Flora.cs
+    startLine: 27
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string message
+    return:
+      type: System.String
+    content.vb: Public message As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.Gift.#ctor(PlayerPaths,System.String,System.String)
+  commentId: M:Clay.Game.Mod.Entities.Gift.#ctor(PlayerPaths,System.String,System.String)
+  id: '#ctor(PlayerPaths,System.String,System.String)'
+  parent: Clay.Game.Mod.Entities.Gift
+  langs:
+  - csharp
+  - vb
+  name: Gift(PlayerPaths, String, String)
+  nameWithType: Gift.Gift(PlayerPaths, String, String)
+  fullName: Clay.Game.Mod.Entities.Gift.Gift(PlayerPaths, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Flora.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: .ctor
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Flora.cs
+    startLine: 29
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public Gift(PlayerPaths path, string item, string message)
+    parameters:
+    - id: path
+      type: PlayerPaths
+    - id: item
+      type: System.String
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(path As PlayerPaths, item As String, message As String)
+  overload: Clay.Game.Mod.Entities.Gift.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: PlayerPaths
+  commentId: T:PlayerPaths
+  name: PlayerPaths
+  nameWithType: PlayerPaths
+  fullName: PlayerPaths
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Clay.Game.Mod.Entities.Gift.#ctor*
+  commentId: Overload:Clay.Game.Mod.Entities.Gift.#ctor
+  name: Gift
+  nameWithType: Gift.Gift
+  fullName: Clay.Game.Mod.Entities.Gift.Gift

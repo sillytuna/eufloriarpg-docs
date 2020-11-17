@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.EquipmentStates
+  commentId: T:Clay.Game.Mod.Entities.EquipmentStates
+  id: EquipmentStates
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.EquipmentStates.Activated
+  - Clay.Game.Mod.Entities.EquipmentStates.Captured
+  - Clay.Game.Mod.Entities.EquipmentStates.Collected
+  - Clay.Game.Mod.Entities.EquipmentStates.Collecting
+  - Clay.Game.Mod.Entities.EquipmentStates.Equipped
+  - Clay.Game.Mod.Entities.EquipmentStates.Free
+  - Clay.Game.Mod.Entities.EquipmentStates.Uninitialised
+  langs:
+  - csharp
+  - vb
+  name: EquipmentStates
+  nameWithType: EquipmentStates
+  fullName: Clay.Game.Mod.Entities.EquipmentStates
+  type: Enum
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Equipment.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: EquipmentStates
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Equipment.cs
+    startLine: 10
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public enum EquipmentStates
+    content.vb: Public Enum EquipmentStates
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Clay.Game.Mod.Entities.EquipmentStates.Uninitialised
+  commentId: F:Clay.Game.Mod.Entities.EquipmentStates.Uninitialised
+  id: Uninitialised
+  parent: Clay.Game.Mod.Entities.EquipmentStates
+  langs:
+  - csharp
+  - vb
+  name: Uninitialised
+  nameWithType: EquipmentStates.Uninitialised
+  fullName: Clay.Game.Mod.Entities.EquipmentStates.Uninitialised
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Equipment.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Uninitialised
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Equipment.cs
+    startLine: 11
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Uninitialised = 0
+    return:
+      type: Clay.Game.Mod.Entities.EquipmentStates
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EquipmentStates.Free
+  commentId: F:Clay.Game.Mod.Entities.EquipmentStates.Free
+  id: Free
+  parent: Clay.Game.Mod.Entities.EquipmentStates
+  langs:
+  - csharp
+  - vb
+  name: Free
+  nameWithType: EquipmentStates.Free
+  fullName: Clay.Game.Mod.Entities.EquipmentStates.Free
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Equipment.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Free
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Equipment.cs
+    startLine: 12
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Free = 1
+    return:
+      type: Clay.Game.Mod.Entities.EquipmentStates
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EquipmentStates.Captured
+  commentId: F:Clay.Game.Mod.Entities.EquipmentStates.Captured
+  id: Captured
+  parent: Clay.Game.Mod.Entities.EquipmentStates
+  langs:
+  - csharp
+  - vb
+  name: Captured
+  nameWithType: EquipmentStates.Captured
+  fullName: Clay.Game.Mod.Entities.EquipmentStates.Captured
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Equipment.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Captured
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Equipment.cs
+    startLine: 13
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Captured = 2
+    return:
+      type: Clay.Game.Mod.Entities.EquipmentStates
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EquipmentStates.Collecting
+  commentId: F:Clay.Game.Mod.Entities.EquipmentStates.Collecting
+  id: Collecting
+  parent: Clay.Game.Mod.Entities.EquipmentStates
+  langs:
+  - csharp
+  - vb
+  name: Collecting
+  nameWithType: EquipmentStates.Collecting
+  fullName: Clay.Game.Mod.Entities.EquipmentStates.Collecting
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Equipment.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Collecting
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Equipment.cs
+    startLine: 14
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Collecting = 3
+    return:
+      type: Clay.Game.Mod.Entities.EquipmentStates
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EquipmentStates.Collected
+  commentId: F:Clay.Game.Mod.Entities.EquipmentStates.Collected
+  id: Collected
+  parent: Clay.Game.Mod.Entities.EquipmentStates
+  langs:
+  - csharp
+  - vb
+  name: Collected
+  nameWithType: EquipmentStates.Collected
+  fullName: Clay.Game.Mod.Entities.EquipmentStates.Collected
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Equipment.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Collected
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Equipment.cs
+    startLine: 15
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Collected = 4
+    return:
+      type: Clay.Game.Mod.Entities.EquipmentStates
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EquipmentStates.Equipped
+  commentId: F:Clay.Game.Mod.Entities.EquipmentStates.Equipped
+  id: Equipped
+  parent: Clay.Game.Mod.Entities.EquipmentStates
+  langs:
+  - csharp
+  - vb
+  name: Equipped
+  nameWithType: EquipmentStates.Equipped
+  fullName: Clay.Game.Mod.Entities.EquipmentStates.Equipped
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Equipment.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Equipped
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Equipment.cs
+    startLine: 16
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Equipped = 5
+    return:
+      type: Clay.Game.Mod.Entities.EquipmentStates
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Clay.Game.Mod.Entities.EquipmentStates.Activated
+  commentId: F:Clay.Game.Mod.Entities.EquipmentStates.Activated
+  id: Activated
+  parent: Clay.Game.Mod.Entities.EquipmentStates
+  langs:
+  - csharp
+  - vb
+  name: Activated
+  nameWithType: EquipmentStates.Activated
+  fullName: Clay.Game.Mod.Entities.EquipmentStates.Activated
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Equipment.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Activated
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Equipment.cs
+    startLine: 17
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: Activated = 6
+    return:
+      type: Clay.Game.Mod.Entities.EquipmentStates
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: Clay.Game.Mod.Entities.EquipmentStates
+  commentId: T:Clay.Game.Mod.Entities.EquipmentStates
+  parent: Clay.Game.Mod.Entities
+  name: EquipmentStates
+  nameWithType: EquipmentStates
+  fullName: Clay.Game.Mod.Entities.EquipmentStates

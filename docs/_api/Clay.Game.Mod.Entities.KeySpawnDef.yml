@@ -1,0 +1,281 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.KeySpawnDef
+  commentId: T:Clay.Game.Mod.Entities.KeySpawnDef
+  id: KeySpawnDef
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.KeySpawnDef.mColony
+  - Clay.Game.Mod.Entities.KeySpawnDef.mName
+  - Clay.Game.Mod.Entities.KeySpawnDef.mOther
+  - Clay.Game.Mod.Entities.KeySpawnDef.mPosition
+  - Clay.Game.Mod.Entities.KeySpawnDef.mType
+  - Clay.Game.Mod.Entities.KeySpawnDef.Register
+  langs:
+  - csharp
+  - vb
+  name: KeySpawnDef
+  nameWithType: KeySpawnDef
+  fullName: Clay.Game.Mod.Entities.KeySpawnDef
+  type: Class
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Key.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: KeySpawnDef
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Key.cs
+    startLine: 321
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: 'public class KeySpawnDef : EditorCommand'
+    content.vb: >-
+      Public Class KeySpawnDef
+          Inherits EditorCommand
+  inheritance:
+  - System.Object
+  - EditorCommand
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Clay.Game.Mod.Entities.KeySpawnDef.mType
+  commentId: F:Clay.Game.Mod.Entities.KeySpawnDef.mType
+  id: mType
+  parent: Clay.Game.Mod.Entities.KeySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mType
+  nameWithType: KeySpawnDef.mType
+  fullName: Clay.Game.Mod.Entities.KeySpawnDef.mType
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Key.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mType
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Key.cs
+    startLine: 325
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mType
+    return:
+      type: System.String
+    content.vb: Public mType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.KeySpawnDef.mName
+  commentId: F:Clay.Game.Mod.Entities.KeySpawnDef.mName
+  id: mName
+  parent: Clay.Game.Mod.Entities.KeySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mName
+  nameWithType: KeySpawnDef.mName
+  fullName: Clay.Game.Mod.Entities.KeySpawnDef.mName
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Key.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mName
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Key.cs
+    startLine: 328
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mName
+    return:
+      type: System.String
+    content.vb: Public mName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.KeySpawnDef.mColony
+  commentId: F:Clay.Game.Mod.Entities.KeySpawnDef.mColony
+  id: mColony
+  parent: Clay.Game.Mod.Entities.KeySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mColony
+  nameWithType: KeySpawnDef.mColony
+  fullName: Clay.Game.Mod.Entities.KeySpawnDef.mColony
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Key.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mColony
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Key.cs
+    startLine: 331
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mColony
+    return:
+      type: System.String
+    content.vb: Public mColony As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.KeySpawnDef.mPosition
+  commentId: F:Clay.Game.Mod.Entities.KeySpawnDef.mPosition
+  id: mPosition
+  parent: Clay.Game.Mod.Entities.KeySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mPosition
+  nameWithType: KeySpawnDef.mPosition
+  fullName: Clay.Game.Mod.Entities.KeySpawnDef.mPosition
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Key.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mPosition
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Key.cs
+    startLine: 334
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public Vector2 mPosition
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public mPosition As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.KeySpawnDef.mOther
+  commentId: F:Clay.Game.Mod.Entities.KeySpawnDef.mOther
+  id: mOther
+  parent: Clay.Game.Mod.Entities.KeySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mOther
+  nameWithType: KeySpawnDef.mOther
+  fullName: Clay.Game.Mod.Entities.KeySpawnDef.mOther
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Key.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mOther
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Key.cs
+    startLine: 337
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mOther
+    return:
+      type: System.String
+    content.vb: Public mOther As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.KeySpawnDef.Register
+  commentId: M:Clay.Game.Mod.Entities.KeySpawnDef.Register
+  id: Register
+  parent: Clay.Game.Mod.Entities.KeySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: Register()
+  nameWithType: KeySpawnDef.Register()
+  fullName: Clay.Game.Mod.Entities.KeySpawnDef.Register()
+  type: Method
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Key.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Register
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Key.cs
+    startLine: 339
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public static void Register()
+    content.vb: Public Shared Sub Register
+  overload: Clay.Game.Mod.Entities.KeySpawnDef.Register*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: EditorCommand
+  commentId: T:EditorCommand
+  name: EditorCommand
+  nameWithType: EditorCommand
+  fullName: EditorCommand
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Clay.Game.Mod.Entities.KeySpawnDef.Register*
+  commentId: Overload:Clay.Game.Mod.Entities.KeySpawnDef.Register
+  name: Register
+  nameWithType: KeySpawnDef.Register
+  fullName: Clay.Game.Mod.Entities.KeySpawnDef.Register

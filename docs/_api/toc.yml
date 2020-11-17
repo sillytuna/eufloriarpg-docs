@@ -1,0 +1,93 @@
+### YamlMime:TableOfContent
+- uid: Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  items:
+  - uid: Clay.Game.Mod.Entities.Artifact
+    name: Artifact
+  - uid: Clay.Game.Mod.Entities.ArtifactSpawnDef
+    name: ArtifactSpawnDef
+  - uid: Clay.Game.Mod.Entities.DataCan
+    name: DataCan
+  - uid: Clay.Game.Mod.Entities.DataCanSpawnDef
+    name: DataCanSpawnDef
+  - uid: Clay.Game.Mod.Entities.DecorativeEntity
+    name: DecorativeEntity
+  - uid: Clay.Game.Mod.Entities.DecorativeEntitySpawnDef
+    name: DecorativeEntitySpawnDef
+  - uid: Clay.Game.Mod.Entities.Entity
+    name: Entity
+  - uid: Clay.Game.Mod.Entities.EntityFlags
+    name: EntityFlags
+  - uid: Clay.Game.Mod.Entities.EntitySpawnDef
+    name: EntitySpawnDef
+  - uid: Clay.Game.Mod.Entities.Equipment
+    name: Equipment
+  - uid: Clay.Game.Mod.Entities.EquipmentStates
+    name: EquipmentStates
+  - uid: Clay.Game.Mod.Entities.FlightMode
+    name: FlightMode
+  - uid: Clay.Game.Mod.Entities.Flora
+    name: Flora
+  - uid: Clay.Game.Mod.Entities.FloraSpawnDef
+    name: FloraSpawnDef
+  - uid: Clay.Game.Mod.Entities.Gift
+    name: Gift
+  - uid: Clay.Game.Mod.Entities.Key
+    name: Key
+  - uid: Clay.Game.Mod.Entities.KeySpawnDef
+    name: KeySpawnDef
+  - uid: Clay.Game.Mod.Entities.Pickup
+    name: Pickup
+  - uid: Clay.Game.Mod.Entities.PickupSpawnDef
+    name: PickupSpawnDef
+  - uid: Clay.Game.Mod.Entities.PlantRootHint
+    name: PlantRootHint
+  - uid: Clay.Game.Mod.Entities.PlayerShip
+    name: PlayerShip
+  - uid: Clay.Game.Mod.Entities.PlayerShipStates
+    name: PlayerShipStates
+  - uid: Clay.Game.Mod.Entities.Pod
+    name: Pod
+  - uid: Clay.Game.Mod.Entities.PodDef
+    name: PodDef
+  - uid: Clay.Game.Mod.Entities.Projectile
+    name: Projectile
+  - uid: Clay.Game.Mod.Entities.ProjectileFlags
+    name: ProjectileFlags
+  - uid: Clay.Game.Mod.Entities.RespawnRules
+    name: RespawnRules
+  - uid: Clay.Game.Mod.Entities.Scourge
+    name: Scourge
+  - uid: Clay.Game.Mod.Entities.Seed
+    name: Seed
+  - uid: Clay.Game.Mod.Entities.SeedSpawnDef
+    name: SeedSpawnDef
+  - uid: Clay.Game.Mod.Entities.SoloShip
+    name: SoloShip
+  - uid: Clay.Game.Mod.Entities.SoloShipSpawnDef
+    name: SoloShipSpawnDef
+  - uid: Clay.Game.Mod.Entities.Stranger
+    name: Stranger
+  - uid: Clay.Game.Mod.Entities.Turret
+    name: Turret
+  - uid: Clay.Game.Mod.Entities.TurretFlags
+    name: TurretFlags
+  - uid: Clay.Game.Mod.Entities.TurretSpawnDef
+    name: TurretSpawnDef
+  - uid: Clay.Game.Mod.Entities.Vehicle
+    name: Vehicle
+  - uid: Clay.Game.Mod.Entities.Vortex
+    name: Vortex
+  - uid: Clay.Game.Mod.Entities.VortexFlags
+    name: VortexFlags
+  - uid: Clay.Game.Mod.Entities.VortexSpawnDef
+    name: VortexSpawnDef
+- uid: Clay.Game.Mod.VehicleHandling
+  name: Clay.Game.Mod.VehicleHandling
+  items:
+  - uid: Clay.Game.Mod.VehicleHandling.DefaultVehicleHandling
+    name: DefaultVehicleHandling
+  - uid: Clay.Game.Mod.VehicleHandling.IVehicleHandling
+    name: IVehicleHandling
+  - uid: Clay.Game.Mod.VehicleHandling.SensibleDistance
+    name: SensibleDistance

@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.VehicleHandling
+  commentId: N:Clay.Game.Mod.VehicleHandling
+  id: Clay.Game.Mod.VehicleHandling
+  children:
+  - Clay.Game.Mod.VehicleHandling.DefaultVehicleHandling
+  - Clay.Game.Mod.VehicleHandling.IVehicleHandling
+  - Clay.Game.Mod.VehicleHandling.SensibleDistance
+  langs:
+  - csharp
+  - vb
+  name: Clay.Game.Mod.VehicleHandling
+  nameWithType: Clay.Game.Mod.VehicleHandling
+  fullName: Clay.Game.Mod.VehicleHandling
+  type: Namespace
+  assemblies:
+  - Clay.Game
+references:
+- uid: Clay.Game.Mod.VehicleHandling.DefaultVehicleHandling
+  commentId: T:Clay.Game.Mod.VehicleHandling.DefaultVehicleHandling
+  name: DefaultVehicleHandling
+  nameWithType: DefaultVehicleHandling
+  fullName: Clay.Game.Mod.VehicleHandling.DefaultVehicleHandling
+- uid: Clay.Game.Mod.VehicleHandling.IVehicleHandling
+  commentId: T:Clay.Game.Mod.VehicleHandling.IVehicleHandling
+  parent: Clay.Game.Mod.VehicleHandling
+  name: IVehicleHandling
+  nameWithType: IVehicleHandling
+  fullName: Clay.Game.Mod.VehicleHandling.IVehicleHandling
+- uid: Clay.Game.Mod.VehicleHandling.SensibleDistance
+  commentId: T:Clay.Game.Mod.VehicleHandling.SensibleDistance
+  name: SensibleDistance
+  nameWithType: SensibleDistance
+  fullName: Clay.Game.Mod.VehicleHandling.SensibleDistance
+- uid: Clay.Game.Mod.VehicleHandling
+  commentId: N:Clay.Game.Mod.VehicleHandling
+  name: Clay.Game.Mod.VehicleHandling
+  nameWithType: Clay.Game.Mod.VehicleHandling
+  fullName: Clay.Game.Mod.VehicleHandling

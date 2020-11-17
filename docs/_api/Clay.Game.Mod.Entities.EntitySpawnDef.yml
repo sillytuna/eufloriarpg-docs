@@ -1,0 +1,389 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.EntitySpawnDef
+  commentId: T:Clay.Game.Mod.Entities.EntitySpawnDef
+  id: EntitySpawnDef
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.EntitySpawnDef.mAttributes
+  - Clay.Game.Mod.Entities.EntitySpawnDef.mColony
+  - Clay.Game.Mod.Entities.EntitySpawnDef.mCount
+  - Clay.Game.Mod.Entities.EntitySpawnDef.mName
+  - Clay.Game.Mod.Entities.EntitySpawnDef.mOther
+  - Clay.Game.Mod.Entities.EntitySpawnDef.mPosition
+  - Clay.Game.Mod.Entities.EntitySpawnDef.mTeam
+  - Clay.Game.Mod.Entities.EntitySpawnDef.mType
+  - Clay.Game.Mod.Entities.EntitySpawnDef.Register
+  langs:
+  - csharp
+  - vb
+  name: EntitySpawnDef
+  nameWithType: EntitySpawnDef
+  fullName: Clay.Game.Mod.Entities.EntitySpawnDef
+  type: Class
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: EntitySpawnDef
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 5545
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: 'public class EntitySpawnDef : EditorCommand'
+    content.vb: >-
+      Public Class EntitySpawnDef
+          Inherits EditorCommand
+  inheritance:
+  - System.Object
+  - EditorCommand
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Clay.Game.Mod.Entities.EntitySpawnDef.mType
+  commentId: F:Clay.Game.Mod.Entities.EntitySpawnDef.mType
+  id: mType
+  parent: Clay.Game.Mod.Entities.EntitySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mType
+  nameWithType: EntitySpawnDef.mType
+  fullName: Clay.Game.Mod.Entities.EntitySpawnDef.mType
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mType
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 5549
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mType
+    return:
+      type: System.String
+    content.vb: Public mType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.EntitySpawnDef.mColony
+  commentId: F:Clay.Game.Mod.Entities.EntitySpawnDef.mColony
+  id: mColony
+  parent: Clay.Game.Mod.Entities.EntitySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mColony
+  nameWithType: EntitySpawnDef.mColony
+  fullName: Clay.Game.Mod.Entities.EntitySpawnDef.mColony
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mColony
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 5552
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mColony
+    return:
+      type: System.String
+    content.vb: Public mColony As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.EntitySpawnDef.mPosition
+  commentId: F:Clay.Game.Mod.Entities.EntitySpawnDef.mPosition
+  id: mPosition
+  parent: Clay.Game.Mod.Entities.EntitySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mPosition
+  nameWithType: EntitySpawnDef.mPosition
+  fullName: Clay.Game.Mod.Entities.EntitySpawnDef.mPosition
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mPosition
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 5555
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public Vector2 mPosition
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public mPosition As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.EntitySpawnDef.mTeam
+  commentId: F:Clay.Game.Mod.Entities.EntitySpawnDef.mTeam
+  id: mTeam
+  parent: Clay.Game.Mod.Entities.EntitySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mTeam
+  nameWithType: EntitySpawnDef.mTeam
+  fullName: Clay.Game.Mod.Entities.EntitySpawnDef.mTeam
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mTeam
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 5558
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mTeam
+    return:
+      type: System.String
+    content.vb: Public mTeam As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.EntitySpawnDef.mAttributes
+  commentId: F:Clay.Game.Mod.Entities.EntitySpawnDef.mAttributes
+  id: mAttributes
+  parent: Clay.Game.Mod.Entities.EntitySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mAttributes
+  nameWithType: EntitySpawnDef.mAttributes
+  fullName: Clay.Game.Mod.Entities.EntitySpawnDef.mAttributes
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mAttributes
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 5561
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public Attributes mAttributes
+    return:
+      type: Attributes
+    content.vb: Public mAttributes As Attributes
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.EntitySpawnDef.mName
+  commentId: F:Clay.Game.Mod.Entities.EntitySpawnDef.mName
+  id: mName
+  parent: Clay.Game.Mod.Entities.EntitySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mName
+  nameWithType: EntitySpawnDef.mName
+  fullName: Clay.Game.Mod.Entities.EntitySpawnDef.mName
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mName
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 5564
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mName
+    return:
+      type: System.String
+    content.vb: Public mName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.EntitySpawnDef.mCount
+  commentId: F:Clay.Game.Mod.Entities.EntitySpawnDef.mCount
+  id: mCount
+  parent: Clay.Game.Mod.Entities.EntitySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mCount
+  nameWithType: EntitySpawnDef.mCount
+  fullName: Clay.Game.Mod.Entities.EntitySpawnDef.mCount
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mCount
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 5567
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public int mCount
+    return:
+      type: System.Int32
+    content.vb: Public mCount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.EntitySpawnDef.mOther
+  commentId: F:Clay.Game.Mod.Entities.EntitySpawnDef.mOther
+  id: mOther
+  parent: Clay.Game.Mod.Entities.EntitySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mOther
+  nameWithType: EntitySpawnDef.mOther
+  fullName: Clay.Game.Mod.Entities.EntitySpawnDef.mOther
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mOther
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 5570
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mOther
+    return:
+      type: System.String
+    content.vb: Public mOther As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.EntitySpawnDef.Register
+  commentId: M:Clay.Game.Mod.Entities.EntitySpawnDef.Register
+  id: Register
+  parent: Clay.Game.Mod.Entities.EntitySpawnDef
+  langs:
+  - csharp
+  - vb
+  name: Register()
+  nameWithType: EntitySpawnDef.Register()
+  fullName: Clay.Game.Mod.Entities.EntitySpawnDef.Register()
+  type: Method
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Entity.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Register
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Entity.cs
+    startLine: 5572
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public static void Register()
+    content.vb: Public Shared Sub Register
+  overload: Clay.Game.Mod.Entities.EntitySpawnDef.Register*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: EditorCommand
+  commentId: T:EditorCommand
+  name: EditorCommand
+  nameWithType: EditorCommand
+  fullName: EditorCommand
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Attributes
+  commentId: T:Attributes
+  name: Attributes
+  nameWithType: Attributes
+  fullName: Attributes
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Clay.Game.Mod.Entities.EntitySpawnDef.Register*
+  commentId: Overload:Clay.Game.Mod.Entities.EntitySpawnDef.Register
+  name: Register
+  nameWithType: EntitySpawnDef.Register
+  fullName: Clay.Game.Mod.Entities.EntitySpawnDef.Register

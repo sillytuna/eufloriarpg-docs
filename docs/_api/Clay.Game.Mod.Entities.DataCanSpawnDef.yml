@@ -1,0 +1,313 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.DataCanSpawnDef
+  commentId: T:Clay.Game.Mod.Entities.DataCanSpawnDef
+  id: DataCanSpawnDef
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.DataCanSpawnDef.mColony
+  - Clay.Game.Mod.Entities.DataCanSpawnDef.mName
+  - Clay.Game.Mod.Entities.DataCanSpawnDef.mOther
+  - Clay.Game.Mod.Entities.DataCanSpawnDef.mPosition
+  - Clay.Game.Mod.Entities.DataCanSpawnDef.mType
+  - Clay.Game.Mod.Entities.DataCanSpawnDef.mUID
+  - Clay.Game.Mod.Entities.DataCanSpawnDef.Register
+  langs:
+  - csharp
+  - vb
+  name: DataCanSpawnDef
+  nameWithType: DataCanSpawnDef
+  fullName: Clay.Game.Mod.Entities.DataCanSpawnDef
+  type: Class
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/DataCan.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: DataCanSpawnDef
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/DataCan.cs
+    startLine: 440
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: 'public class DataCanSpawnDef : EditorCommand'
+    content.vb: >-
+      Public Class DataCanSpawnDef
+          Inherits EditorCommand
+  inheritance:
+  - System.Object
+  - EditorCommand
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Clay.Game.Mod.Entities.DataCanSpawnDef.mType
+  commentId: F:Clay.Game.Mod.Entities.DataCanSpawnDef.mType
+  id: mType
+  parent: Clay.Game.Mod.Entities.DataCanSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mType
+  nameWithType: DataCanSpawnDef.mType
+  fullName: Clay.Game.Mod.Entities.DataCanSpawnDef.mType
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/DataCan.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mType
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/DataCan.cs
+    startLine: 443
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mType
+    return:
+      type: System.String
+    content.vb: Public mType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.DataCanSpawnDef.mUID
+  commentId: F:Clay.Game.Mod.Entities.DataCanSpawnDef.mUID
+  id: mUID
+  parent: Clay.Game.Mod.Entities.DataCanSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mUID
+  nameWithType: DataCanSpawnDef.mUID
+  fullName: Clay.Game.Mod.Entities.DataCanSpawnDef.mUID
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/DataCan.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mUID
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/DataCan.cs
+    startLine: 446
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mUID
+    return:
+      type: System.String
+    content.vb: Public mUID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.DataCanSpawnDef.mName
+  commentId: F:Clay.Game.Mod.Entities.DataCanSpawnDef.mName
+  id: mName
+  parent: Clay.Game.Mod.Entities.DataCanSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mName
+  nameWithType: DataCanSpawnDef.mName
+  fullName: Clay.Game.Mod.Entities.DataCanSpawnDef.mName
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/DataCan.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mName
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/DataCan.cs
+    startLine: 449
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mName
+    return:
+      type: System.String
+    content.vb: Public mName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.DataCanSpawnDef.mColony
+  commentId: F:Clay.Game.Mod.Entities.DataCanSpawnDef.mColony
+  id: mColony
+  parent: Clay.Game.Mod.Entities.DataCanSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mColony
+  nameWithType: DataCanSpawnDef.mColony
+  fullName: Clay.Game.Mod.Entities.DataCanSpawnDef.mColony
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/DataCan.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mColony
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/DataCan.cs
+    startLine: 452
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mColony
+    return:
+      type: System.String
+    content.vb: Public mColony As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.DataCanSpawnDef.mPosition
+  commentId: F:Clay.Game.Mod.Entities.DataCanSpawnDef.mPosition
+  id: mPosition
+  parent: Clay.Game.Mod.Entities.DataCanSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mPosition
+  nameWithType: DataCanSpawnDef.mPosition
+  fullName: Clay.Game.Mod.Entities.DataCanSpawnDef.mPosition
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/DataCan.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mPosition
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/DataCan.cs
+    startLine: 455
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public Vector2 mPosition
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public mPosition As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.DataCanSpawnDef.mOther
+  commentId: F:Clay.Game.Mod.Entities.DataCanSpawnDef.mOther
+  id: mOther
+  parent: Clay.Game.Mod.Entities.DataCanSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mOther
+  nameWithType: DataCanSpawnDef.mOther
+  fullName: Clay.Game.Mod.Entities.DataCanSpawnDef.mOther
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/DataCan.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mOther
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/DataCan.cs
+    startLine: 458
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mOther
+    return:
+      type: System.String
+    content.vb: Public mOther As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.DataCanSpawnDef.Register
+  commentId: M:Clay.Game.Mod.Entities.DataCanSpawnDef.Register
+  id: Register
+  parent: Clay.Game.Mod.Entities.DataCanSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: Register()
+  nameWithType: DataCanSpawnDef.Register()
+  fullName: Clay.Game.Mod.Entities.DataCanSpawnDef.Register()
+  type: Method
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/DataCan.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Register
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/DataCan.cs
+    startLine: 460
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public static void Register()
+    content.vb: Public Shared Sub Register
+  overload: Clay.Game.Mod.Entities.DataCanSpawnDef.Register*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: EditorCommand
+  commentId: T:EditorCommand
+  name: EditorCommand
+  nameWithType: EditorCommand
+  fullName: EditorCommand
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Clay.Game.Mod.Entities.DataCanSpawnDef.Register*
+  commentId: Overload:Clay.Game.Mod.Entities.DataCanSpawnDef.Register
+  name: Register
+  nameWithType: DataCanSpawnDef.Register
+  fullName: Clay.Game.Mod.Entities.DataCanSpawnDef.Register

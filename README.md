@@ -24,27 +24,40 @@ You should then add your page to the relevant `.. toctree::` in an index.rst pag
 
 To build the HTML website (or any other format supported by Sphinx, like PDF, EPUB or LaTeX), you need to install [Sphinx](http://sphinx-doc.org/) >= 1.3 as well as (for the HTML) the [readthedocs.org theme](https://github.com/snide/sphinx_rtd_theme).
 
-Those tools are best installed using [pip](https://pip.pypa.io), Python's module installer. The Python 3 version might be provided (on Linux distros) as `pip3` or `python3-pip`. You can then run:
+Those tools are best installed using [pip](https://pip.pypa.io), Python's module installer. I would advise installing python through pyenv.
+
+Setup our requirements.
 
 ```sh
-pip install sphinx
+pip install -r docs/requirements.txt
 ```
 
-For the ReadTheDocs theme
+Get our Theme.
 ```sh
 pip install sphinx-rtd-theme
 ```
 
-For .net API generation we also need to install [docFx](https://dotnet.github.io/docfx/) and some sphinx modules with the following commands
+For .net API generation we also need to install [docFx](https://dotnet.github.io/docfx/).
 ```sh
 brew install docfx
-pip install sphinx-autoapi
-pip install sphinxcontrib-dotnetdomain
 ```
 
 You can then build the HTML documentation from the root folder of this repository with:
-
 ```sh
 cd docs
 make html
 ```
+
+You should find the output in docs/build/html/index.html
+
+## Building with Sphinx AutoApi
+
+Make sure you have followed the above Building with Sphinx steps and can succesfully build
+
+If you want to rebuilt the API documentation, make sure you have both the eufloriarpg and eufloriarpg-docs repos checked out into the same directoy.
+
+Inside the docs/source/confy.py file, modify the following lines : 
+
+ln: 38, extensions=
+
+There are two sets of extensions, one should always be commented out, one allows for the regeneration of api documentation, the other simply generates HTML from the RST files.

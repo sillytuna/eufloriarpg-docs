@@ -132,6 +132,10 @@ Properties
 
     .. dn:property:: Clay.Game.Mod.Entities.Vehicle._maxAcceleration
 
+        
+        The default max acceleration for this entity.
+
+
 
 
         :rtype: System.Single

@@ -1,0 +1,281 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.ArtifactSpawnDef
+  commentId: T:Clay.Game.Mod.Entities.ArtifactSpawnDef
+  id: ArtifactSpawnDef
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.ArtifactSpawnDef.mColony
+  - Clay.Game.Mod.Entities.ArtifactSpawnDef.mName
+  - Clay.Game.Mod.Entities.ArtifactSpawnDef.mOther
+  - Clay.Game.Mod.Entities.ArtifactSpawnDef.mPosition
+  - Clay.Game.Mod.Entities.ArtifactSpawnDef.mType
+  - Clay.Game.Mod.Entities.ArtifactSpawnDef.Register
+  langs:
+  - csharp
+  - vb
+  name: ArtifactSpawnDef
+  nameWithType: ArtifactSpawnDef
+  fullName: Clay.Game.Mod.Entities.ArtifactSpawnDef
+  type: Class
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Artifact.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: ArtifactSpawnDef
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Artifact.cs
+    startLine: 1372
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: 'public class ArtifactSpawnDef : EditorCommand'
+    content.vb: >-
+      Public Class ArtifactSpawnDef
+          Inherits EditorCommand
+  inheritance:
+  - System.Object
+  - EditorCommand
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Clay.Game.Mod.Entities.ArtifactSpawnDef.mType
+  commentId: F:Clay.Game.Mod.Entities.ArtifactSpawnDef.mType
+  id: mType
+  parent: Clay.Game.Mod.Entities.ArtifactSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mType
+  nameWithType: ArtifactSpawnDef.mType
+  fullName: Clay.Game.Mod.Entities.ArtifactSpawnDef.mType
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Artifact.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mType
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Artifact.cs
+    startLine: 1376
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mType
+    return:
+      type: System.String
+    content.vb: Public mType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.ArtifactSpawnDef.mColony
+  commentId: F:Clay.Game.Mod.Entities.ArtifactSpawnDef.mColony
+  id: mColony
+  parent: Clay.Game.Mod.Entities.ArtifactSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mColony
+  nameWithType: ArtifactSpawnDef.mColony
+  fullName: Clay.Game.Mod.Entities.ArtifactSpawnDef.mColony
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Artifact.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mColony
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Artifact.cs
+    startLine: 1379
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mColony
+    return:
+      type: System.String
+    content.vb: Public mColony As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.ArtifactSpawnDef.mPosition
+  commentId: F:Clay.Game.Mod.Entities.ArtifactSpawnDef.mPosition
+  id: mPosition
+  parent: Clay.Game.Mod.Entities.ArtifactSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mPosition
+  nameWithType: ArtifactSpawnDef.mPosition
+  fullName: Clay.Game.Mod.Entities.ArtifactSpawnDef.mPosition
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Artifact.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mPosition
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Artifact.cs
+    startLine: 1382
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public Vector2 mPosition
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public mPosition As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.ArtifactSpawnDef.mName
+  commentId: F:Clay.Game.Mod.Entities.ArtifactSpawnDef.mName
+  id: mName
+  parent: Clay.Game.Mod.Entities.ArtifactSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mName
+  nameWithType: ArtifactSpawnDef.mName
+  fullName: Clay.Game.Mod.Entities.ArtifactSpawnDef.mName
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Artifact.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mName
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Artifact.cs
+    startLine: 1385
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mName
+    return:
+      type: System.String
+    content.vb: Public mName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.ArtifactSpawnDef.mOther
+  commentId: F:Clay.Game.Mod.Entities.ArtifactSpawnDef.mOther
+  id: mOther
+  parent: Clay.Game.Mod.Entities.ArtifactSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mOther
+  nameWithType: ArtifactSpawnDef.mOther
+  fullName: Clay.Game.Mod.Entities.ArtifactSpawnDef.mOther
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Artifact.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mOther
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Artifact.cs
+    startLine: 1388
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mOther
+    return:
+      type: System.String
+    content.vb: Public mOther As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.ArtifactSpawnDef.Register
+  commentId: M:Clay.Game.Mod.Entities.ArtifactSpawnDef.Register
+  id: Register
+  parent: Clay.Game.Mod.Entities.ArtifactSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: Register()
+  nameWithType: ArtifactSpawnDef.Register()
+  fullName: Clay.Game.Mod.Entities.ArtifactSpawnDef.Register()
+  type: Method
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/Artifact.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Register
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/Artifact.cs
+    startLine: 1390
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public static void Register()
+    content.vb: Public Shared Sub Register
+  overload: Clay.Game.Mod.Entities.ArtifactSpawnDef.Register*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: EditorCommand
+  commentId: T:EditorCommand
+  name: EditorCommand
+  nameWithType: EditorCommand
+  fullName: EditorCommand
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Clay.Game.Mod.Entities.ArtifactSpawnDef.Register*
+  commentId: Overload:Clay.Game.Mod.Entities.ArtifactSpawnDef.Register
+  name: Register
+  nameWithType: ArtifactSpawnDef.Register
+  fullName: Clay.Game.Mod.Entities.ArtifactSpawnDef.Register

@@ -1,0 +1,350 @@
+### YamlMime:ManagedReference
+items:
+- uid: Clay.Game.Mod.Entities.SoloShipSpawnDef
+  commentId: T:Clay.Game.Mod.Entities.SoloShipSpawnDef
+  id: SoloShipSpawnDef
+  parent: Clay.Game.Mod.Entities
+  children:
+  - Clay.Game.Mod.Entities.SoloShipSpawnDef.mAttributes
+  - Clay.Game.Mod.Entities.SoloShipSpawnDef.mColony
+  - Clay.Game.Mod.Entities.SoloShipSpawnDef.mName
+  - Clay.Game.Mod.Entities.SoloShipSpawnDef.mOther
+  - Clay.Game.Mod.Entities.SoloShipSpawnDef.mPosition
+  - Clay.Game.Mod.Entities.SoloShipSpawnDef.mTeam
+  - Clay.Game.Mod.Entities.SoloShipSpawnDef.mType
+  - Clay.Game.Mod.Entities.SoloShipSpawnDef.Register
+  langs:
+  - csharp
+  - vb
+  name: SoloShipSpawnDef
+  nameWithType: SoloShipSpawnDef
+  fullName: Clay.Game.Mod.Entities.SoloShipSpawnDef
+  type: Class
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/SoloShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: SoloShipSpawnDef
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/SoloShip.cs
+    startLine: 215
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: 'public class SoloShipSpawnDef : EditorCommand'
+    content.vb: >-
+      Public Class SoloShipSpawnDef
+          Inherits EditorCommand
+  inheritance:
+  - System.Object
+  - EditorCommand
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Clay.Game.Mod.Entities.SoloShipSpawnDef.mType
+  commentId: F:Clay.Game.Mod.Entities.SoloShipSpawnDef.mType
+  id: mType
+  parent: Clay.Game.Mod.Entities.SoloShipSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mType
+  nameWithType: SoloShipSpawnDef.mType
+  fullName: Clay.Game.Mod.Entities.SoloShipSpawnDef.mType
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/SoloShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mType
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/SoloShip.cs
+    startLine: 218
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mType
+    return:
+      type: System.String
+    content.vb: Public mType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.SoloShipSpawnDef.mColony
+  commentId: F:Clay.Game.Mod.Entities.SoloShipSpawnDef.mColony
+  id: mColony
+  parent: Clay.Game.Mod.Entities.SoloShipSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mColony
+  nameWithType: SoloShipSpawnDef.mColony
+  fullName: Clay.Game.Mod.Entities.SoloShipSpawnDef.mColony
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/SoloShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mColony
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/SoloShip.cs
+    startLine: 221
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mColony
+    return:
+      type: System.String
+    content.vb: Public mColony As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.SoloShipSpawnDef.mPosition
+  commentId: F:Clay.Game.Mod.Entities.SoloShipSpawnDef.mPosition
+  id: mPosition
+  parent: Clay.Game.Mod.Entities.SoloShipSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mPosition
+  nameWithType: SoloShipSpawnDef.mPosition
+  fullName: Clay.Game.Mod.Entities.SoloShipSpawnDef.mPosition
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/SoloShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mPosition
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/SoloShip.cs
+    startLine: 224
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public Vector2 mPosition
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public mPosition As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.SoloShipSpawnDef.mTeam
+  commentId: F:Clay.Game.Mod.Entities.SoloShipSpawnDef.mTeam
+  id: mTeam
+  parent: Clay.Game.Mod.Entities.SoloShipSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mTeam
+  nameWithType: SoloShipSpawnDef.mTeam
+  fullName: Clay.Game.Mod.Entities.SoloShipSpawnDef.mTeam
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/SoloShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mTeam
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/SoloShip.cs
+    startLine: 227
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mTeam
+    return:
+      type: System.String
+    content.vb: Public mTeam As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.SoloShipSpawnDef.mAttributes
+  commentId: F:Clay.Game.Mod.Entities.SoloShipSpawnDef.mAttributes
+  id: mAttributes
+  parent: Clay.Game.Mod.Entities.SoloShipSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mAttributes
+  nameWithType: SoloShipSpawnDef.mAttributes
+  fullName: Clay.Game.Mod.Entities.SoloShipSpawnDef.mAttributes
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/SoloShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mAttributes
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/SoloShip.cs
+    startLine: 230
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public Attributes mAttributes
+    return:
+      type: Attributes
+    content.vb: Public mAttributes As Attributes
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.SoloShipSpawnDef.mName
+  commentId: F:Clay.Game.Mod.Entities.SoloShipSpawnDef.mName
+  id: mName
+  parent: Clay.Game.Mod.Entities.SoloShipSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mName
+  nameWithType: SoloShipSpawnDef.mName
+  fullName: Clay.Game.Mod.Entities.SoloShipSpawnDef.mName
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/SoloShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mName
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/SoloShip.cs
+    startLine: 233
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mName
+    return:
+      type: System.String
+    content.vb: Public mName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.SoloShipSpawnDef.mOther
+  commentId: F:Clay.Game.Mod.Entities.SoloShipSpawnDef.mOther
+  id: mOther
+  parent: Clay.Game.Mod.Entities.SoloShipSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: mOther
+  nameWithType: SoloShipSpawnDef.mOther
+  fullName: Clay.Game.Mod.Entities.SoloShipSpawnDef.mOther
+  type: Field
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/SoloShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: mOther
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/SoloShip.cs
+    startLine: 236
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public string mOther
+    return:
+      type: System.String
+    content.vb: Public mOther As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Clay.Game.Mod.Entities.SoloShipSpawnDef.Register
+  commentId: M:Clay.Game.Mod.Entities.SoloShipSpawnDef.Register
+  id: Register
+  parent: Clay.Game.Mod.Entities.SoloShipSpawnDef
+  langs:
+  - csharp
+  - vb
+  name: Register()
+  nameWithType: SoloShipSpawnDef.Register()
+  fullName: Clay.Game.Mod.Entities.SoloShipSpawnDef.Register()
+  type: Method
+  source:
+    remote:
+      path: Solution/Clay.Game/Mod/Entities/SoloShip.cs
+      branch: develop
+      repo: git@github.com:sillytuna/eufloriarpg.git
+    id: Register
+    path: ../../eufloriarpg/Solution/Clay.Game/Mod/Entities/SoloShip.cs
+    startLine: 238
+  assemblies:
+  - Clay.Game
+  namespace: Clay.Game.Mod.Entities
+  syntax:
+    content: public static void Register()
+    content.vb: Public Shared Sub Register
+  overload: Clay.Game.Mod.Entities.SoloShipSpawnDef.Register*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Clay.Game.Mod.Entities
+  commentId: N:Clay.Game.Mod.Entities
+  name: Clay.Game.Mod.Entities
+  nameWithType: Clay.Game.Mod.Entities
+  fullName: Clay.Game.Mod.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: EditorCommand
+  commentId: T:EditorCommand
+  name: EditorCommand
+  nameWithType: EditorCommand
+  fullName: EditorCommand
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Attributes
+  commentId: T:Attributes
+  name: Attributes
+  nameWithType: Attributes
+  fullName: Attributes
+- uid: Clay.Game.Mod.Entities.SoloShipSpawnDef.Register*
+  commentId: Overload:Clay.Game.Mod.Entities.SoloShipSpawnDef.Register
+  name: Register
+  nameWithType: SoloShipSpawnDef.Register
+  fullName: Clay.Game.Mod.Entities.SoloShipSpawnDef.Register
